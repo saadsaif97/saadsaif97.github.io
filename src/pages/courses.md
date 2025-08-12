@@ -47,7 +47,6 @@ By the end, you’ll be able to **build, customize, and optimize** Shopify theme
 Learn Shopify JavaScript through **practical projects**.
 Every project is based on **real store use cases**.
 
-
 **You’ll Build:**
 - Free shipping progress bar
 - Cart upsells (based on metafields)
