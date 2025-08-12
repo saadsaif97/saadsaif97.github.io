@@ -1,37 +1,52 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "About Me"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
 
-![Astro Paper](public/astropaper-og.jpg)
+![Astro Paper](public/freelance-shopify-developer-trainer.png)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+Hi, I’m **Saad Saif** - a Shopify theme developer and trainer with a passion to create custom solutions without relying on apps for the Shopify stores.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+Over the last **4+ years**, I’ve worked with **100+ Shopify stores**, including **20+ Shopify Plus projects**, building everything from **custom features** and **checkout extensions** to **complete store redesigns**. I’ve also created **50+ custom sections and blocks**, solved **100+ bugs**, recorded **70+ video tutorial regarding Shopify theme development**, and optimized store performance for faster load times and better conversions.
 
-## Features
+When you work with me, you get:
+- **Custom development** tailored to your business
+- **Lightweight, high-performance code** without unnecessary apps
+- **Fast turnaround** with clean, maintainable solutions
+- **Proven experience** across diverse industries
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+---
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+## My Work as a Trainer
 
-and so much more.
+Alongside client projects, I teach **Shopify theme development** to help other developers and store owners level up their skills.
 
-## Show your support
+I’ve created two in-depth courses:
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+1. **Shopify Theme Development – Beginner to Advanced (Urdu)**
+   Covers Shopify theme architecture, Liquid basics, JavaScript for Shopify, and building a complete theme from scratch.
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
+2. **10+ Real-World JavaScript Projects in Shopify Themes (English)**
+   Learn JavaScript debugging, web components, and Shopify’s Cart API with hands-on projects like free shipping progress bars, cart upsells, gift wrapping options, and image swatches.
 
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
+I also share **code snippets, tutorials, and tips** on my **blog** and **YouTube channel**, making Shopify development easier for everyone.
 
-Kyay zuu! 🙏🏼
+---
+
+## Why Work With Me?
+
+- **Proven Track Record:** 100+ stores built or optimized
+- **Shopify Plus Expertise:** 20+ advanced projects completed
+- **Checkout Customization:** 50+ extensions and functions created
+- **Performance First:** Every feature built with speed and SEO in mind
+- **Transparent Communication:** Clear timelines, no technical jargon
+
+Whether you need a **custom theme feature**, a **checkout extension**, or a **speed boost**, I can help you make it happen—quickly, cleanly, and without unnecessary complexity.
+
+---
+
+## Let’s Work Together
+
+Want to bring your Shopify store to the next level?
+📩 **[Contact Me](#)** or explore my **[Services](#)** to see how I can help.

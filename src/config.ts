@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://satnaing.dev/",
   desc: "Freelance Shopify theme developer and trainer.",
   title: "Saad Saif",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "freelance-shopify-developer-trainer.png",
   lightAndDarkMode: false,
   postPerIndex: 4,
   postPerPage: 4,

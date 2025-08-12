@@ -19,25 +19,25 @@ interface Social {
 export const SOCIALS: Social[] = [
   {
     name: "GitHub",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/saadsaif97",
     linkTitle: `${SITE.title} on GitHub`,
     icon: IconGitHub,
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/username/",
+    href: "https://www.linkedin.com/in/saadsaif97/",
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: IconLinkedin,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:saadgfx97@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
   {
     name: "WhatsApp",
-    href: "https://wa.me/?text=Hi Saad",
+    href: "https://wa.me/+923314002075?text=Hi Saad",
     linkTitle: `Contact directly with Saad Saif`,
     icon: IconWhatsapp,
   },
@@ -67,12 +67,6 @@ export const SHARE_LINKS: Social[] = [
     href: "https://t.me/share/url?url=",
     linkTitle: `Share this post via Telegram`,
     icon: IconTelegram,
-  },
-  {
-    name: "Pinterest",
-    href: "https://pinterest.com/pin/create/button/?url=",
-    linkTitle: `Share this post on Pinterest`,
-    icon: IconPinterest,
   },
   {
     name: "Mail",
