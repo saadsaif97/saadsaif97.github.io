@@ -24,12 +24,6 @@ export const SOCIALS: Social[] = [
     icon: IconGitHub,
   },
   {
-    name: "X",
-    href: "https://x.com/username",
-    linkTitle: `${SITE.title} on X`,
-    icon: IconBrandX,
-  },
-  {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/username/",
     linkTitle: `${SITE.title} on LinkedIn`,
@@ -40,6 +34,12 @@ export const SOCIALS: Social[] = [
     href: "mailto:yourmail@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
+  },
+  {
+    name: "WhatsApp",
+    href: "https://wa.me/?text=Hi Saad",
+    linkTitle: `Contact directly with Saad Saif`,
+    icon: IconWhatsapp,
   },
 ] as const;
 
