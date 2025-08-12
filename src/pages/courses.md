@@ -36,7 +36,7 @@ By the end, you’ll be able to **build, customize, and optimize** Shopify theme
 - Collection page with pagination
 - Dynamic updates with APIs & Web Components
 
-[🎥 Course Preview Video](#) *(YouTube embed here)*
+### You can watch Complete module 3 here
 
 ---
 
@@ -54,7 +54,7 @@ Every project is based on **real store use cases**.
 - Image swatches for product & collection pages
 - More advanced UI/UX with Cart API and Web Components
 
-### Preview Video from the course
+#### Preview Video from the course
 <iframe width="560" style="width: 100%;height: auto;aspect-ratio: 16 / 9;" height="315" src="https://www.youtube.com/embed/IcohW1PHDdE?si=FlhTr0hp_7BjGp_f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
