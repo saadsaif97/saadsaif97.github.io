@@ -37,6 +37,7 @@ By the end, you’ll be able to **build, customize, and optimize** Shopify theme
 - Dynamic updates with APIs & Web Components
 
 ### You can watch Complete module 3 here
+<iframe width="560" height="315" style="width: 100%;height: auto;aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/-aivKZF3iKQ?si=PUNfcsalCIeHctal" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
