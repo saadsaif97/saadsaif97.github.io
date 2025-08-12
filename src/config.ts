@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "saadsaif97.github.io", // replace this with your deployed domain
   author: "Saad Saif",
   profile: "https://satnaing.dev/",
   desc: "Freelance Shopify theme developer and trainer.",
