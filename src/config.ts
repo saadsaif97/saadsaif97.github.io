@@ -1,7 +1,7 @@
 export const SITE = {
-  website: "https://saadsaif97.github.io", // replace this with your deployed domain
+  website: "https://ecomwonk.com", // replace this with your deployed domain
   author: "Saad Saif",
-  profile: "https://saadsaif97.github.io",
+  profile: "https://ecomwonk.com",
   desc: "Freelance Shopify theme developer and trainer.",
   title: "Saad Saif",
   ogImage: "freelance-shopify-developer-trainer.png",
