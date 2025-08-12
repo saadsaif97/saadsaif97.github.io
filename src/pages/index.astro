@@ -7,6 +7,7 @@ import Socials from "@/components/Socials.astro";
 import LinkButton from "@/components/LinkButton.astro";
 import Card from "@/components/Card.astro";
 import Hr from "@/components/Hr.astro";
+import CourseCard from "@/components/CourseCard.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
@@ -29,7 +30,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </h1>
 
       <p>
-        I build, customize, and optimize Shopify themes to match your brand and boost conversions. Plus, I teach developers how to do the same through my courses, blog, and
+        I build, customize, and optimize Shopify themes to match your brand and
+        boost conversions. Plus, I teach developers how to do the same through
+        my courses, blog, and
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
           href="https://www.youtube.com/@saadsaif97/videos"
@@ -46,6 +49,30 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           </div>
         )
       }
+    </section>
+
+    <Hr />
+
+    <section id="courses" class="pt-12 pb-6">
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">Courses</h2>
+      <p>Practical, real-world Shopify development. Learn step-by-step, build working features, and apply them in your own or client stores. Each course only $20, less than the cost of a small Shopify task.</p>
+      <ul class="grid grid-cols-1 gap-6 my-4">
+        <CourseCard
+          title="Shopify Theme Development | Beginner to Advanced"
+          language="Urdu"
+          price="20"
+          description="Learn Shopify theme architecture, Liquid, JavaScript APIs, and build a complete theme from scratch."
+          enrollUrl="/courses"
+        />
+
+        <CourseCard
+          title="10+ Real-World Shopify Projects with JavaScript"
+          language="English"
+          price="20"
+          description="Build real Shopify store features like upsells, progress bars, swatches, and more using JavaScript."
+          enrollUrl="/courses"
+        />
+      </ul>
     </section>
 
     <Hr />
