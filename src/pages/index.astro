@@ -33,7 +33,17 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       <p>
         I build, customize, and optimize Shopify themes to match your brand and
         boost conversions. Plus, I teach developers how to do the same through
-        my courses, blog, and
+        <LinkButton
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          href="/courses"
+        >
+          my courses
+        </LinkButton>, <LinkButton
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          href="/posts"
+        >
+          blog
+        </LinkButton>, and
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
           href="https://www.youtube.com/@saadsaif97/videos"
@@ -84,7 +94,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           href="https://calendly.com/saadgfx97/shopify-theme-development"
           target="_blank"
           rel="noopener"
-          class="inline-block rounded bg-accent px-6 py-3 text-center text-sm font-medium text-white transition hover:bg-accent/90"
+          class="inline-block rounded border border-muted px-6 py-3 text-center text-sm font-medium text-white transition"
         >
           Book a Meeting
         </a>
@@ -94,7 +104,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           rel="noopener"
           class="inline-block rounded bg-green-600 px-6 py-3 text-center text-sm font-medium text-white transition hover:bg-green-700"
         >
-          WhatsApp
+          Chat on WhatsApp
         </a>
       </div>
     </section>

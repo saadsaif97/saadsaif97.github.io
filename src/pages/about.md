@@ -44,9 +44,4 @@ I also share **code snippets, tutorials, and tips** on my **blog** and **YouTube
 
 Whether you need a **custom theme feature**, a **checkout extension**, or a **speed boost**, I can help you make it happen—quickly, cleanly, and without unnecessary complexity.
 
----
-
-## Let’s Work Together
-
-Want to bring your Shopify store to the next level?
-📩 **[Contact Me](#)** or explore my **[Services](#)** to see how I can help.
+📩 **[Book a meeting](https://calendly.com/saadgfx97/shopify-theme-development)** or explore my **[Services](/#services)** to see how I can help.
