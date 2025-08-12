@@ -15,8 +15,6 @@ Learn step-by-step, build working features, and apply them in your own or client
 **Language:** Urdu
 **Price:** $20
 
-[🎥 Course Preview Video](#) *(YouTube embed here)*
-
 Learn Shopify’s theme structure and development process.
 By the end, you’ll be able to **build, customize, and optimize** Shopify themes.
 
@@ -37,6 +35,8 @@ By the end, you’ll be able to **build, customize, and optimize** Shopify theme
 - Mega menu
 - Collection page with pagination
 - Dynamic updates with APIs & Web Components
+
+[🎥 Course Preview Video](#) *(YouTube embed here)*
 
 ---
 

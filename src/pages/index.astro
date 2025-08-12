@@ -8,6 +8,7 @@ import LinkButton from "@/components/LinkButton.astro";
 import Card from "@/components/Card.astro";
 import Hr from "@/components/Hr.astro";
 import CourseCard from "@/components/CourseCard.astro";
+import ServiceCard from "@/components/ServiceCard.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
@@ -25,7 +26,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
   <main id="main-content" data-layout="index">
     <section id="hero" class="pt-8 pb-6">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
+      <h1 class="my-4 inline-block text-2xl font-bold sm:my-8 sm:text-3xl">
         Shopify theme developer and Trainer
       </h1>
 
@@ -53,10 +54,61 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     <Hr />
 
+    <section id="services" class="pt-12 pb-6">
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">Services</h2>
+
+      <ul class="mb-6 grid grid-cols-1 gap-6 md:grid-cols-2">
+        <ServiceCard
+          title="Custom Shopify Development"
+          description="Add custom features, modify existing theme functionality, or extend Shopify capabilities without heavy apps."
+        />
+
+        <ServiceCard
+          title="Bug Fixes & Troubleshooting"
+          description="Identify and fix Shopify theme bugs, compatibility issues, and performance bottlenecks quickly."
+        />
+
+        <ServiceCard
+          title="Figma to Shopify Theme"
+          description="Convert your Figma or design files into a high-performance, pixel-perfect Shopify theme."
+        />
+
+        <ServiceCard
+          title="Ongoing Technical Support"
+          description="Monthly support for store owners facing technical challenges, from small tweaks to large updates."
+        />
+      </ul>
+
+      <div class="flex flex-col gap-4 sm:flex-row">
+        <a
+          href="https://calendly.com/saadgfx97/shopify-theme-development"
+          target="_blank"
+          rel="noopener"
+          class="inline-block rounded bg-accent px-6 py-3 text-center text-sm font-medium text-white transition hover:bg-accent/90"
+        >
+          Book a Meeting
+        </a>
+        <a
+          href="https://wa.me/+923314002075?text=Hi Saad, I am interested in your Shopify services"
+          target="_blank"
+          rel="noopener"
+          class="inline-block rounded bg-green-600 px-6 py-3 text-center text-sm font-medium text-white transition hover:bg-green-700"
+        >
+          WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <Hr />
+
     <section id="courses" class="pt-12 pb-6">
       <h2 class="mb-6 text-2xl font-semibold tracking-wide">Courses</h2>
-      <p>Practical, real-world Shopify development. Learn step-by-step, build working features, and apply them in your own or client stores. Each course only $20, less than the cost of a small Shopify task.</p>
-      <ul class="grid grid-cols-1 gap-6 my-4">
+      <p>
+        Practical, real-world Shopify development. Learn step-by-step, build
+        working features, and apply them in your own or client stores. Each
+        course only $20, less than the cost of a small Shopify task.
+      </p>
+      <ul class="my-4 grid grid-cols-1 gap-6">
         <CourseCard
           title="Shopify Theme Development | Beginner to Advanced"
           language="Urdu"
