@@ -13,6 +13,8 @@ import { getPath } from "@/utils/getPath";
 import { slugifyStr } from "@/utils/slugify";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
+import HelpBlock from "@/components/HelpBlock.astro";
+
 import { SITE } from "@/config";
 
 export interface Props {
@@ -114,7 +116,14 @@ const nextPost =
       id="article"
       class="app-prose mx-auto mt-8 max-w-app prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)"
     >
+      <HelpBlock />
+
       <Content />
+
+      <hr class="mt-16 mb-8" />
+
+      <HelpBlock />
+
     </article>
 
     <hr class="my-8 border-dashed" />

@@ -1,0 +1,42 @@
+---
+// src/components/HelpBlock.astro
+const whatsappNumber = "+923314002075"; // your number
+const message = encodeURIComponent(
+  "Hi Saad, I’d like your expert help with this solution."
+);
+const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
+import { Image } from "astro:assets";
+---
+
+<div
+  class="my-12 rounded-2xl border border-green-500 bg-green-50 p-6 text-center shadow-md dark:bg-green-900/20"
+>
+  <img
+    src="https://avatars.githubusercontent.com/u/58517683"
+    alt="Saad Saif - Shopify Expert"
+    class="mx-auto mb-4 h-20 w-20 rounded-full border-2 border-green-500 shadow-sm"
+    loading="lazy"
+  />
+
+  <h3 class="mb-2 text-2xl font-semibold text-green-700 dark:text-green-300">
+    Need a Shopify Expert?
+  </h3>
+
+  <p class="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
+    Stuck or don’t have the time? I’ll personally <span class="font-semibold"
+      >implement this solution for you</span
+    >
+    with my expert hands - for just <span class="font-bold text-green-600"
+      >$30</span
+    >.
+  </p>
+
+  <a
+    href={whatsappLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="inline-block rounded-lg bg-green-600 px-6 py-2 font-medium text-white shadow transition-colors hover:bg-green-700"
+  >
+    💬 Message me on WhatsApp
+  </a>
+</div>
