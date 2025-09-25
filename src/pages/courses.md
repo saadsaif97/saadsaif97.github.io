@@ -58,6 +58,34 @@ Every project is based on **real store use cases**.
 #### Preview Video from the course
 <iframe width="560" style="width: 100%;height: auto;aspect-ratio: 16 / 9;" height="315" src="https://www.youtube.com/embed/IcohW1PHDdE?si=FlhTr0hp_7BjGp_f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
+
+## How to Enroll
+📲 Contact me on **WhatsApp** to join.
+**Each course is just $20**.
+
+[**Message on WhatsApp**](https://wa.me/923314002075?text=Hi%20Saad%20I%20am%20interested%20in%20the%20course)
+
+---
+
+
+# 1 Month Mentorship
+
+Practical, **real-world Shopify development**.
+Learn step-by-step, build working features, and apply them in your own or client stores.
+💡 **New:** You can now join my **1-Month Mentorship Program** with 1-1 guidance.
+
+## 🚀 1-Month Shopify Theme Development Mentorship
+**Price:** $70
+
+- ✅ Both courses included (Beginner → Advanced + Real-World Projects)
+- ✅ Ask unlimited questions about Shopify theme development
+- ✅ 3 private 1-1 calls (1 hour each) with me
+- ✅ Get personalized guidance on your own projects
+
+👉 Best option if you want **direct mentorship, faster learning, and practical help** on your own store or client work.
+
+[**Join Mentorship on WhatsApp**](https://wa.me/923314002075?text=Hi%20Saad%20I%20am%20interested%20in%20the%201-Month%20Mentorship%20Program)
 
 ---
 
@@ -69,10 +97,3 @@ One thing I truly liked about this training is the practical, hands-on approach,
 > *"Saad’s Shopify Theme Development course is a fantastic opportunity to fast-track your career as a Shopify theme developer. With just a basic understanding of HTML, CSS, and JavaScript, you’ll dive into a hands-on, project-based learning experience—building real, functional components of a Shopify theme from the ground up. The lessons are practical, well-structured, and packed with insights. I recommend this course not only to beginners but also to experienced developers who want to expand their skills, refine their techniques, and explore fresh perspectives on creating diverse and impactful Shopify features."* — **Adnan Afsari**
 
 > *"Before this training, I knew little about Shopify theme development. I learned how themes work, customize them, and use Liquid effectively. Sir Saad’s clear and practical teaching style made learning easy and applicable to real projects."* — **Anees**
----
-
-## How to Enroll
-📲 Contact me on **WhatsApp** to join.
-**Each course is just $20**.
-
-[**Message on WhatsApp**](https://wa.me/+923314002075?text=Hi Saad, I am interested in the course)
