@@ -104,4 +104,15 @@ data-product-grid
 {% endcomment %}
 ```
 
+5. **Then at the end of head tag in** `theme.liquid`, add this line to attach the asset the we created:
+```liquid
+<script src="{{ 'infinite-scroll.js' | asset_url }}" defer="defer"></script>
+```
+
 ---
+
+## Video Tutorial
+
+Watch the step-by-step video tutorial here:
+
+[![Add infinity scroll on shopify collection page](https://img.youtube.com/vi/ojao6BS8KPk/maxresdefault.jpg)](https://www.youtube.com/watch?v=ojao6BS8KPk)
