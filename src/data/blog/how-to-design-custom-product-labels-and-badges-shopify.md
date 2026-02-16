@@ -51,7 +51,7 @@ We will create custom product labels and badges in Shopify without any app using
    ```html
    
    <style>
-     media-gallery {
+     media-gallery, .product__media-wrapper {
        position: relative;
      }
      .product-labels {
