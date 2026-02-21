@@ -13,7 +13,7 @@ Learn step-by-step, build working features, and apply them in your own or client
 
 ## 1. Shopify Theme Development | Beginner to Advanced
 **Language:** Urdu
-**Price:** $20
+**Price:** Free on YouTube
 
 Learn Shopify’s theme structure and development process.
 By the end, you’ll be able to **build, customize, and optimize** Shopify themes.
@@ -43,7 +43,7 @@ By the end, you’ll be able to **build, customize, and optimize** Shopify theme
 
 ## 2. 10+ Real-World Shopify Projects with JavaScript
 **Language:** English
-**Price:** $20
+**Price:** Free on YouTube
 
 Learn Shopify JavaScript through **practical projects**.
 Every project is based on **real store use cases**.
