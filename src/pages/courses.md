@@ -60,35 +60,6 @@ Every project is based on **real store use cases**.
 
 ---
 
-## How to Enroll
-📲 Contact me on **WhatsApp** to join.
-**Each course is just $20**.
-
-[**Message on WhatsApp**](https://wa.me/923314002075?text=Hi%20Saad%20I%20am%20interested%20in%20the%20course)
-
----
-
-
-# 1 Month Mentorship
-
-Practical, **real-world Shopify development**.
-Learn step-by-step, build working features, and apply them in your own or client stores.
-💡 **New:** You can now join my **1-Month Mentorship Program** with 1-1 guidance.
-
-## 🚀 1-Month Shopify Theme Development Mentorship
-**Price:** $70
-
-- ✅ Both courses included (Beginner → Advanced + Real-World Projects)
-- ✅ Ask unlimited questions about Shopify theme development
-- ✅ 3 private 1-1 calls (1 hour each) with me
-- ✅ Get personalized guidance on your own projects
-
-👉 Best option if you want **direct mentorship, faster learning, and practical help** on your own store or client work.
-
-[**Join Mentorship on WhatsApp**](https://wa.me/923314002075?text=Hi%20Saad%20I%20am%20interested%20in%20the%201-Month%20Mentorship%20Program)
-
----
-
 ## Student Feedback
 
 > *"I have been providing Shopify Store Designing services since 2020, focusing mainly on theme customization without any custom coding work. My goal was to enhance my skills in the Shopify niche, which is why I joined this training. During the training, I learned about various aspects of Shopify, including theme files, sections, variants, checkout, and my personal favorite: debugging. Saad Bhai’s teaching style is very professional, clear, and easy to follow.
