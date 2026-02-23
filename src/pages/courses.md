@@ -7,7 +7,6 @@ title: "Courses"
 
 Practical, **real-world Shopify development**.
 Learn step-by-step, build working features, and apply them in your own or client stores.
-**Each course only $20**, less than the cost of a small Shopify task.
 
 ---
 
