@@ -3,6 +3,10 @@ layout: ../layouts/AboutLayout.astro
 title: "Portfolio"
 ---
 
+# Customized the existing Shopify theme and imported reviews from Ebay to SHopify using webscraping
+
+
+
 # YouTube Channel
 
 **Trusted by 1500+ subscribers**, I share my learnings regarding Shopify development on YouTube
