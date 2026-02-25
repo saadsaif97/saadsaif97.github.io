@@ -33,6 +33,18 @@ In this project, I worked as a Shopify developer on a store using the Prestige t
 
 ---
 
+# Infinite Scroll for Shopify Collection Pages (Filter & Sort Compatible)
+
+Developed a custom infinite scroll solution for Shopify collection pages that works seamlessly with filtering and sorting, without using any third-party apps.
+
+Unlike most implementations that break when filters or sort options are applied, this solution dynamically loads products based on the active selection and continues working flawlessly.
+
+The implementation was documented in a detailed blog post and widely appreciated, even adopted by a previous agency’s CTO for use in their live projects. This lightweight, scalable approach improves UX while maintaining performance across Shopify stores.
+
+<div class="video-wrapper"> <iframe src="https://www.youtube.com/embed/RXLZAwQLhfI" title="Project Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe> </div>
+
+---
+
 # YouTube Channel
 
 **Trusted by 1500+ subscribers**, I share my learnings regarding Shopify development on YouTube
