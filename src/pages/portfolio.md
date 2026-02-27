@@ -25,7 +25,7 @@ title: "Portfolio"
 }
 </style>
 
-# Custom Prestige Theme Enhancements & Large-Scale Review Migration from Ebay to Shopify
+# Custom Theme Enhancements & Large-Scale Review Migration from Ebay to Shopify
 
 In this project, I worked as a Shopify developer on a store using the Prestige theme, where the client wanted advanced customizations beyond the default layout. I redesigned the header to feature a prominent centered search bar with navigation repositioned below it, creating a more modern and user-focused experience. I also built custom tab sections with smooth “show more / show less” functionality, added a dynamic brand section linked to dedicated brand pages built using metaobjects, and developed a fully customized brand template showcasing logos, highlighted products, and related collections. Additionally, the brand had over 200,000 reviews on eBay, which I scraped, formatted, and successfully imported into the Shopify store, ensuring all product reviews were properly structured and displayed, resulting in a seamless, high-performance, and fully customized storefront.
 
@@ -33,7 +33,7 @@ In this project, I worked as a Shopify developer on a store using the Prestige t
 
 ---
 
-# Advanced Prestige Theme Customization & SKU-Based Product Grouping Automation using Shopify Flow
+# Advanced Theme Customization & SKU-Based Product Grouping Automation using Shopify Flow
 
 ### Mobile Navigation Rebuilt
 
