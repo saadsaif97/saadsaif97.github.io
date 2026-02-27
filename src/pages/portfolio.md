@@ -33,6 +33,36 @@ In this project, I worked as a Shopify developer on a store using the Prestige t
 
 ---
 
+# Advanced Prestige Theme Customization & SKU-Based Product Grouping Automation using Shopify Flow
+
+### Mobile Navigation Rebuilt
+
+- Converted top-level navigation items into tab-based navigation.
+- Automatically displayed first-level menu items on drawer open to give users an instant overview.
+
+### Dynamic Product Grouping (SKU-Based Automation)
+
+- Grouped separate products to behave like variants using the first 7 digits of the SKU.
+- Implemented automated grouping logic using Shopify Flow.
+- New products are automatically assigned to the correct group based on SKU logic.
+- Group updates trigger automatically when product status changes.
+
+### Variant-Like Experience Across Separate Products
+
+- Swatch selection updates URL and page content dynamically without full page reload.
+- Entire product data refreshes using AJAX for seamless UX.
+- Displayed grouped color options on:
+  - Product pages
+  - Collection cards
+  - Upsell sections
+
+### Result
+Created a scalable system where independent products behave like variants without restructuring the catalog, improving UX, automation, and long-term maintainability.
+
+<div class="video-wrapper"> <iframe src="https://www.youtube.com/embed/mrFB1yozm_k" title="Project Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe> </div>
+
+---
+
 # Infinite Scroll for Shopify Collection Pages (Filter & Sort Compatible)
 
 Developed a custom infinite scroll solution for Shopify collection pages that works seamlessly with filtering and sorting, without using any third-party apps.
