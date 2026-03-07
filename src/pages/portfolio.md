@@ -25,7 +25,18 @@ title: "Portfolio"
 }
 </style>
 
-# Custom Theme Enhancements & Large-Scale Review Migration from Ebay to Shopify
+## Product Engraving Personalization on product page without any 3rd party app
+Implemented a custom laser engraving personalization feature on the Shopify product page without using any third-party apps. Customers can enable the engraving option, enter their custom text, and the additional engraving cost is automatically applied.
+
+To overcome Shopify’s limitation of modifying the original product price, I developed a solution where the engraving is added as a separate linked line item in the cart. The engraving text is stored with the product and remains visible in the cart, checkout, and final order, ensuring merchants can easily process personalized orders.
+
+This solution works with any Shopify theme and provides a lightweight alternative to expensive personalization apps while maintaining store performance.
+
+<div class="video-wrapper"> <iframe src="https://www.youtube.com/embed/rZQ3PgyoQPE" title="Project Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe> </div>
+
+---
+
+## Custom Theme Enhancements & Large-Scale Review Migration from Ebay to Shopify
 
 In this project, I worked as a Shopify developer on a store using the Prestige theme, where the client wanted advanced customizations beyond the default layout. I redesigned the header to feature a prominent centered search bar with navigation repositioned below it, creating a more modern and user-focused experience. I also built custom tab sections with smooth “show more / show less” functionality, added a dynamic brand section linked to dedicated brand pages built using metaobjects, and developed a fully customized brand template showcasing logos, highlighted products, and related collections. Additionally, the brand had over 200,000 reviews on eBay, which I scraped, formatted, and successfully imported into the Shopify store, ensuring all product reviews were properly structured and displayed, resulting in a seamless, high-performance, and fully customized storefront.
 
@@ -33,21 +44,21 @@ In this project, I worked as a Shopify developer on a store using the Prestige t
 
 ---
 
-# Advanced Theme Customization & SKU-Based Product Grouping Automation using Shopify Flow
+## Advanced Theme Customization & SKU-Based Product Grouping Automation using Shopify Flow
 
-### Mobile Navigation Rebuilt
+#### Mobile Navigation Rebuilt
 
 - Converted top-level navigation items into tab-based navigation.
 - Automatically displayed first-level menu items on drawer open to give users an instant overview.
 
-### Dynamic Product Grouping (SKU-Based Automation)
+#### Dynamic Product Grouping (SKU-Based Automation)
 
 - Grouped separate products to behave like variants using the first 7 digits of the SKU.
 - Implemented automated grouping logic using Shopify Flow.
 - New products are automatically assigned to the correct group based on SKU logic.
 - Group updates trigger automatically when product status changes.
 
-### Variant-Like Experience Across Separate Products
+#### Variant-Like Experience Across Separate Products
 
 - Swatch selection updates URL and page content dynamically without full page reload.
 - Entire product data refreshes using AJAX for seamless UX.
@@ -56,14 +67,14 @@ In this project, I worked as a Shopify developer on a store using the Prestige t
   - Collection cards
   - Upsell sections
 
-### Result
+#### Result
 Created a scalable system where independent products behave like variants without restructuring the catalog, improving UX, automation, and long-term maintainability.
 
 <div class="video-wrapper"> <iframe src="https://www.youtube.com/embed/mrFB1yozm_k" title="Project Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe> </div>
 
 ---
 
-# Infinite Scroll for Shopify Collection Pages (Filter & Sort Compatible)
+## Infinite Scroll for Shopify Collection Pages (Filter & Sort Compatible)
 
 Developed a custom infinite scroll solution for Shopify collection pages that works seamlessly with filtering and sorting, without using any third-party apps.
 
@@ -75,7 +86,7 @@ The implementation was documented in a detailed blog post and widely appreciated
 
 ---
 
-# YouTube Channel
+## YouTube Channel
 
 **Trusted by 1500+ subscribers**, I share my learnings regarding Shopify development on YouTube
 
@@ -85,7 +96,7 @@ The implementation was documented in a detailed blog post and widely appreciated
 
 ---
 
-# LinkedIn profile
+## LinkedIn profile
 
 **Trusted by 3900+ people on linkedIn**, I share my learings publically on linkedin
 
