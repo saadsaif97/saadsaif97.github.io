@@ -308,7 +308,7 @@ Create a new snippet file named `cart-rewards-bar.liquid` and paste the followin
 
 ### 4. Update `cart-drawer.liquid`
 
-In the `cart-drawer.liquid` file, locate the line above `<cart-drawer-items>` and paste the following code:
+In the snippet: `cart-drawer.liquid` file, locate the line above `<cart-drawer-items` and paste the following code:
 
 ```liquid
 {%- if settings.show_free_shipping_bar and cart != empty -%}
