@@ -15,7 +15,7 @@ description: Add FREE GIFT to cart in Shopify without any app (code snippet give
 ## Increase Your Average Order Value with Free Shipping and Free Gifts
 If your store’s average order value (AOV) is $40, you can encourage customers to spend a little more by offering free shipping at $50. Displaying a visual progress bar toward the free shipping threshold motivates customers to increase their order value to unlock the reward.
 
-Want to boost AOV even further? Offer a free gift when customers reach a slightly higher spending amount. Again, a visual representation, like a progress bar for each reward-gamifies the shopping experience and encourages higher spending.
+Want to boost AOV even further? Offer a free gift when customers reach a slightly higher spending amount. Again, a visual representation, like a progress bar for each reward gamifies the shopping experience and encourages higher spending.
 
 Most of the shopify apps offer free gifts but they do not offer the streamlined user experience, with this solution you can implement directly into your shopify store without monthly recurring shopify app fee.
 
