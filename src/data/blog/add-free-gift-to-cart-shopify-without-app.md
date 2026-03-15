@@ -15,7 +15,7 @@ description: Add FREE GIFT to cart in Shopify without any app (code snippet give
 ## Boost Your Sales with Free Shipping & Free Gifts
 Turn $40 orders into $50+ Offer free shipping or a free gift when customers reach a spending threshold and show them their progress with a visual progress bar. It’s like gamifying their shopping experience, fun for them, profitable for you.
 
-I’ve built this ready-to-use solution in the DAWN theme. Want it in your store? Message me on WhatsApp, and I’ll implement it for you fast.
+I’ve built this ready-to-use solution in the DAWN theme. Want it in your store? Message me on WhatsApp, and I’ll implement it for you fast, does not matter which theme you have in your store.
 
 ---
 
