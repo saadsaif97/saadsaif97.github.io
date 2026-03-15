@@ -5,20 +5,23 @@ pubDatetime: 2026-03-15T01:00:00Z
 slug: add-free-gift-to-cart-shopify-without-app
 draft: false
 featured: true
-ogImage: ../../assets/images/Add FREE GIFT to cart without any app.png # src/assets/images/example.png
+ogImage: ../../assets/images/Add FREE GIFT to cart without any app.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
 description: Add FREE GIFT to cart in Shopify without any app (code snippet given).
 ---
 
 # Add FREE GIFT to cart in Shopify without any app
 
-I have implemented this solution on the Shopify DAWN theme, but this solution can be implemented on any theme, we can also modify the design according to the need. If you need help, you can message me anytime on my whatsapp.
+This guide explains how to add a free gift to the cart in Shopify without using any app. The solution is implemented on the Shopify DAWN theme but can be adapted for other themes. If you need help, feel free to message me on WhatsApp.
 
 ---
 
 ## Steps
 
-1. **Create Schema settings** in the file `settings_schema.json`, paste the following settings:
+### 1. Create Schema Settings
+
+In the file `settings_schema.json`, add the following settings:
+
 ```json
 {
   "type": "header",
@@ -49,7 +52,11 @@ I have implemented this solution on the Shopify DAWN theme, but this solution ca
   "label": "Item to add as free Gift"
 },
 ```
-2. **Create the schema translations** in the file `en.default.schema.json` under `settings_schema -> cart -> settings`, paste these lines:
+
+### 2. Add Schema Translations
+
+In the file `en.default.schema.json` under `settings_schema -> cart -> settings`, add these translations:
+
 ```json
 "free_shipping_bar": {
   "header": "Free shipping bar"
@@ -65,8 +72,10 @@ I have implemented this solution on the Shopify DAWN theme, but this solution ca
   "info": "Set to 0 to hide the free gift milestone on the progress bar"
 }
 ```
-3. **Create a snippet** named as: `cart-rewards-bar.liquid`
-   - Use the following snippet:
+
+### 3. Create a Snippet
+
+Create a new snippet file named `cart-rewards-bar.liquid` and paste the following code:
 
 ```liquid
 {% comment %}
@@ -275,14 +284,21 @@ I have implemented this solution on the Shopify DAWN theme, but this solution ca
   </div>
 </div>
 ```
-4. Then go to `cart-drawer.liquid` and paste the following code in the line above `<cart-drawer-items`:
+
+### 4. Update `cart-drawer.liquid`
+
+In the `cart-drawer.liquid` file, locate the line above `<cart-drawer-items>` and paste the following code:
+
 ```liquid
 {%- if settings.show_free_shipping_bar and cart != empty -%}
   {%- render 'cart-rewards-bar' -%}
 {%- endif -%}
 ```
 
-5. Then go to `theme.liquid` and search for this line `</head>` and paste the following snippet above that, then make sure you replace `beanie-chocolate-free-gift` with handle of your unlisted free gift item in the following code `{%- assign free_gift_item = settings.free_gift_item | default: 'beanie-chocolate-free-gift' -%}`:
+### 5. Update `theme.liquid`
+
+In the `theme.liquid` file, search for the line `</head>` and paste the following snippet above it. Replace `beanie-chocolate-free-gift` with the handle of your unlisted free gift item:
+
 ```liquid
 {%- if settings.free_gift_threshold > 0 -%}
   <script defer="defer" data-free-gift>
@@ -365,4 +381,7 @@ I have implemented this solution on the Shopify DAWN theme, but this solution ca
   </script>
 {%- endif -%}
 ```
-6. Then you have to create the automatic discount for the free-gift item, and make sure that your free gift item is unlisted so that customers cannot buy that free item by searching from the store, this item will be added to cart only when the free gift threshold is met, also you have to select the free gift product from theme settings you already created.
+
+### 6. Create an Automatic Discount
+
+Set up an automatic discount for the free gift item. Ensure the free gift item is unlisted so customers cannot purchase it directly. This item will only be added to the cart when the free gift threshold is met. Select the free gift product in the theme settings you created earlier.
