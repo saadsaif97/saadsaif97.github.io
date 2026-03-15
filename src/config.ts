@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://ecomwonk.com",
   desc: "Freelance Shopify theme developer and trainer.",
   title: "EcomWonk",
-  ogImage: "freelance-shopify-developer-trainer.png",
+  ogImage: "expert-shopify-developer.png",
   lightAndDarkMode: false,
   postPerIndex: 4,
   postPerPage: 4,

@@ -4,7 +4,7 @@ title: "About Me"
 ---
 
 
-![Astro Paper](public/freelance-shopify-developer-trainer.png)
+![Astro Paper](public/expert-shopify-developer.png)
 
 Hi, I’m **Saad Saif** - a Shopify theme developer and trainer with a passion to create custom solutions without relying on apps for the Shopify stores.
 
