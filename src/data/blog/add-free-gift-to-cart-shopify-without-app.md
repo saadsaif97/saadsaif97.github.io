@@ -12,7 +12,10 @@ description: Add FREE GIFT to cart in Shopify without any app (code snippet give
 
 # Add FREE GIFT to cart in Shopify without any app
 
-This guide explains how to add a free gift to the cart in Shopify without using any app. The solution is implemented on the Shopify DAWN theme but can be adapted for other themes. If you need help, feel free to message me on WhatsApp.
+## Boost Your Sales with Free Shipping & Free Gifts
+Turn $40 orders into $50+ Offer free shipping or a free gift when customers reach a spending threshold and show them their progress with a visual progress bar. It’s like gamifying their shopping experience, fun for them, profitable for you.
+
+I’ve built this ready-to-use solution in the DAWN theme. Want it in your store? Message me on WhatsApp, and I’ll implement it for you fast.
 
 ---
 
