@@ -1,7 +1,7 @@
 ---
 title: Add FREE GIFT to cart without any app
 author: Saad Saif
-pubDatetime: 2026-03-15T06:00:00Z
+pubDatetime: 2026-03-15T01:00:00Z
 slug: add-free-gift-to-cart-shopify-without-app
 draft: false
 featured: true
