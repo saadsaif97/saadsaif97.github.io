@@ -5,7 +5,7 @@ pubDatetime: 2026-03-15T01:00:00Z
 slug: add-free-gift-to-cart-shopify-without-app
 draft: false
 featured: true
-ogImage: ../../assets/images/Add FREE GIFT to cart without any app.png
+ogImage: ../../assets/images/Increase AOV offering FREE GIFT.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
 description: Add FREE GIFT to cart in Shopify without any app (code snippet given).
 ---
