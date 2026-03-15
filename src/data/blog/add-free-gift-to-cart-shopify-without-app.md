@@ -17,6 +17,8 @@ If your store’s average order value (AOV) is $40, you can encourage customers 
 
 Want to boost AOV even further? Offer a free gift when customers reach a slightly higher spending amount. Again, a visual representation, like a progress bar for each reward-gamifies the shopping experience and encourages higher spending.
 
+Most of the shopify apps offer free gifts but they do not offer the streamlined user experience, with this solution you can implement directly into your shopify store without monthly recurring shopify app fee.
+
 I’ve implemented this solution in the DAWN theme, and it’s ready to copy and paste into your store. If you’d like help implementing it in your Shopify store, feel free to reach out to me on WhatsApp, I specialize in custom Shopify development and can get it set up for you quickly.
 
 ---
