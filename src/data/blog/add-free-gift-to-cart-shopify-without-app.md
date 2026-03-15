@@ -58,7 +58,7 @@ In the file `settings_schema.json`, search for the line `"content": "t:settings_
 
 ### 2. Add Schema Translations
 
-In the file `en.default.schema.json` under `settings_schema -> cart -> settings`, add these translations:
+In the file `en.default.schema.json` search for `"cart_drawer": {` and add these translations above that line:
 
 ```json
 "free_shipping_bar": {
@@ -73,7 +73,17 @@ In the file `en.default.schema.json` under `settings_schema -> cart -> settings`
 "free_gift_threshold": {
   "label": "Free gift threshold ($)",
   "info": "Set to 0 to hide the free gift milestone on the progress bar"
-}
+},
+```
+
+In the file `en.default.json` search for `"empty": "Your cart is empty",` and add the following lines below that:
+```json
+"free_shipping_progress_html": "Add <strong>{{ amount }}</strong> more for free shipping",
+"free_shipping_achieved": "You've unlocked free shipping!",
+"free_shipping_milestone_label": "Free Shipping",
+"free_gift_progress_html": "Add <strong>{{ amount }}</strong> more to unlock your free gift",
+"free_gift_milestone_label": "Free Gift",
+"all_rewards_achieved": "You've unlocked all rewards!",
 ```
 
 ### 3. Create a Snippet
