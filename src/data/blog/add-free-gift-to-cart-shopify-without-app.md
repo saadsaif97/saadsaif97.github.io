@@ -23,7 +23,7 @@ I’ve built this ready-to-use solution in the DAWN theme. Want it in your store
 
 ### 1. Create Schema Settings
 
-In the file `settings_schema.json`, add the following settings:
+In the file `settings_schema.json`, search for the line `"content": "t:settings_schema.cart.settings.cart_drawer.header"` and before the opening curly bracket, add the following settings:
 
 ```json
 {
