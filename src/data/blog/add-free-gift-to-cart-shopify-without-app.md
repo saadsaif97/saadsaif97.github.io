@@ -229,6 +229,10 @@ Create a new snippet file named `cart-rewards-bar.liquid` and paste the followin
     color: rgb(var(--color-foreground));
     font-weight: 600;
   }
+  
+  .free_gift_item.cart-item__quantity {
+    display: none;
+  }
 </style>
 
 <div class="rewards-bar">
@@ -385,3 +389,8 @@ In the `theme.liquid` file, search for the line `</head>` and paste the followin
 ### 6. Create an Automatic Discount
 
 Set up an automatic discount for the free gift item. Ensure the free gift item is unlisted so customers cannot purchase it directly. This item will only be added to the cart when the free gift threshold is met. Select the free gift product in the theme settings you created earlier.
+
+### 7. Hide the quantity buttons on free gift item in the cart
+Go to the snippets -> `cart-drawer.liquid` and search for `class="cart-item__quantity `, then add this code after that: `{%  if item.product.handle == free_gift_handle %} free_gift_item {% endif %}` and also in the line above that you to add this line: `{%- assign free_gift_handle = settings.free_gift_item | default: 'beanie-chocolate-free-gift' -%}`
+
+This step will hide the quantity buttons for the free gift and useds will not be able to add more than 1 free gifts in the cart.
