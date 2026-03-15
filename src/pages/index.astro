@@ -22,80 +22,66 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
 <Layout>
   <Header />
+
   <main id="main-content" data-layout="index">
+
+    <!-- HERO -->
     <section id="hero" class="pt-8 pb-6">
-      <h1 class="my-4 inline-block text-2xl font-bold sm:my-8 sm:text-3xl">
-        Shopify theme developer and Trainer
+
+      <h1 class="my-4 inline-block text-3xl font-bold sm:my-8 sm:text-4xl">
+        Solo Shopify Developer
       </h1>
 
-      <p>
-        I build, customize, and optimize Shopify themes to match your brand and
-        boost conversions. Plus, I teach developers how to do the same through
+      <p class="max-w-2xl">
+        I'm <strong>Saad Saif</strong>, a solo Shopify developer specializing in
+        <strong>custom Shopify functionality, theme customization, and store performance optimization</strong>.
+      </p>
+      
+      <p class="mt-4 *:max-w-2xl">
+        When you message me, you directly chat with me, no middleman or non-technical manager between us.
+      </p>
+
+      <p class="mt-4 max-w-2xl">
+        I help Shopify brands and agencies build faster, scalable storefronts by
+        implementing custom features and removing reliance on heavy apps,
+        improving <strong>conversion rate (CRO)</strong> and
+        <strong>average order value (AOV)</strong>.
+      </p>
+
+      <p class="mt-4 max-w-2xl">
+        I also share my Shopify development knowledge through
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
           href="/courses"
         >
-          my courses
-        </LinkButton>, <LinkButton
+          courses
+        </LinkButton>,
+        <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
           href="/posts"
         >
-          blog
-        </LinkButton>, and
+          blog posts
+        </LinkButton>,
+        and my
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
           href="https://www.youtube.com/@saadsaif97/videos"
         >
           YouTube channel
         </LinkButton>
+        where I teach advanced Shopify development.
       </p>
-      {
-        // only display if at least one social link is enabled
-        SOCIALS.length > 0 && (
-          <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      }
-    </section>
 
-    <Hr />
-
-    <section id="services" class="pt-12 pb-6">
-      <h2 class="mb-6 text-2xl font-semibold tracking-wide">Services</h2>
-
-      <ul class="mb-6 grid grid-cols-1 gap-6 md:grid-cols-2">
-        <ServiceCard
-          title="Custom Shopify Development"
-          description="Add custom features, modify existing theme functionality, or extend Shopify capabilities without heavy apps."
-        />
-
-        <ServiceCard
-          title="Bug Fixes & Troubleshooting"
-          description="Identify and fix Shopify theme bugs, compatibility issues, and performance bottlenecks quickly."
-        />
-
-        <ServiceCard
-          title="Figma to Shopify Theme"
-          description="Convert your Figma or design files into a high-performance, pixel-perfect Shopify theme."
-        />
-
-        <ServiceCard
-          title="Ongoing Technical Support"
-          description="Monthly support for store owners facing technical challenges, from small tweaks to large updates."
-        />
-      </ul>
-
-      <div class="flex flex-col gap-4 sm:flex-row">
+      <div class="mt-6 flex flex-col gap-4 sm:flex-row">
         <a
           href="https://calendly.com/saadgfx97/shopify-theme-development"
           target="_blank"
           rel="noopener"
           class="inline-block rounded border border-muted px-6 py-3 text-center text-sm font-medium text-white transition"
         >
-          Book a Meeting
+          Book Free Consultation
         </a>
+
         <a
           href="https://wa.me/+923314002075?text=Hi Saad, I am interested in your Shopify services"
           target="_blank"
@@ -105,21 +91,115 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           Chat on WhatsApp
         </a>
       </div>
+
+      {
+        SOCIALS.length > 0 && (
+          <div class="mt-6 flex flex-col sm:flex-row sm:items-center">
+            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
+              Connect with me:
+            </div>
+            <Socials />
+          </div>
+        )
+      }
+
     </section>
 
     <Hr />
+
+    <!-- TRUST SECTION -->
+    <section class="pt-12 pb-6">
+
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">
+        Trusted by Shopify Brands & Developers
+      </h2>
+
+      <ul class="space-y-2 max-w-2xl">
+        <li>• 4+ years of Shopify development experience</li>
+        <li>• Built custom functionality for multiple Shopify stores</li>
+        <li>• 1500+ developers learning from my YouTube tutorials</li>
+        <li>• 3900+ professionals following my Shopify insights on LinkedIn</li>
+        <li>• Specialized in custom Shopify solutions without heavy apps</li>
+      </ul>
+
+    </section>
+
+    <Hr />
+
+    <!-- SERVICES -->
+    <section id="services" class="pt-12 pb-6">
+
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">
+        Shopify Development Services
+      </h2>
+
+      <ul class="mb-6 grid grid-cols-1 gap-6 md:grid-cols-2">
+
+        <ServiceCard
+          title="Custom Shopify Development"
+          description="Build custom Shopify functionality tailored to your store, including personalization features, advanced product logic, and unique storefront experiences."
+        />
+
+        <ServiceCard
+          title="Shopify Theme Customization"
+          description="Extend Shopify themes beyond default capabilities with advanced UI improvements, custom sections, and optimized storefront experiences."
+        />
+
+        <ServiceCard
+          title="Conversion Rate Optimization (CRO)"
+          description="Improve product pages, cart experience, and storefront usability to increase conversions and average order value."
+        />
+
+        <ServiceCard
+          title="Shopify Performance Optimization"
+          description="Improve store speed and performance by replacing heavy apps with optimized custom code and removing unnecessary scripts."
+        />
+
+      </ul>
+
+      <div class="flex flex-col gap-4 sm:flex-row">
+
+        <a
+          href="https://calendly.com/saadgfx97/shopify-theme-development"
+          target="_blank"
+          rel="noopener"
+          class="inline-block rounded border border-muted px-6 py-3 text-center text-sm font-medium text-white transition"
+        >
+          Book a Meeting
+        </a>
+
+        <a
+          href="https://wa.me/+923314002075?text=Hi Saad, I am interested in your Shopify services"
+          target="_blank"
+          rel="noopener"
+          class="inline-block rounded bg-green-600 px-6 py-3 text-center text-sm font-medium text-white transition hover:bg-green-700"
+        >
+          Chat on WhatsApp
+        </a>
+
+      </div>
+
+    </section>
+
+    <Hr />
+
+    <!-- BLOG CONTENT -->
 
     {
       featuredPosts.length > 0 && (
         <>
           <section id="featured" class="pt-12 pb-6">
-            <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+            <h2 class="text-2xl font-semibold tracking-wide">
+              Featured Shopify Development Articles
+            </h2>
+
             <ul>
               {featuredPosts.map(data => (
                 <Card variant="h3" {...data} />
               ))}
             </ul>
           </section>
+
           {recentPosts.length > 0 && <Hr />}
         </>
       )
@@ -128,24 +208,31 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+
+          <h2 class="text-2xl font-semibold tracking-wide">
+            Latest Shopify Development Insights
+          </h2>
+
           <ul>
             {recentPosts.map(
               (data, index) =>
                 index < SITE.postPerIndex && <Card variant="h3" {...data} />
             )}
           </ul>
+
         </section>
       )
     }
 
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
-        All Posts
+        All Articles
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>
     </div>
+
   </main>
+
   <Footer />
 </Layout>
 
@@ -153,6 +240,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   document.addEventListener("astro:page-load", () => {
     const indexLayout = (document.querySelector("#main-content") as HTMLElement)
       ?.dataset?.layout;
+
     if (indexLayout) {
       sessionStorage.setItem("backUrl", "/");
     }
