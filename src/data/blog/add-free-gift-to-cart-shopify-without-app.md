@@ -282,7 +282,7 @@ I have implemented this solution on the Shopify DAWN theme, but this solution ca
 {%- endif -%}
 ```
 
-5. Then go to `theme.liquid` and search for this line `</head>` and paste the following snippet above that:
+5. Then go to `theme.liquid` and search for this line `</head>` and paste the following snippet above that, then make sure you replace `beanie-chocolate-free-gift` with handle of your unlisted free gift item in the following code `{%- assign free_gift_item = settings.free_gift_item | default: 'beanie-chocolate-free-gift' -%}`:
 ```liquid
 {%- if settings.free_gift_threshold > 0 -%}
   <script defer="defer" data-free-gift>
@@ -365,3 +365,4 @@ I have implemented this solution on the Shopify DAWN theme, but this solution ca
   </script>
 {%- endif -%}
 ```
+6. Then you have to create the automatic discount for the free-gift item, and make sure that your free gift item is unlisted so that customers cannot buy that free item by searching from the store, this item will be added to cart only when the free gift threshold is met, also you have to select the free gift product from theme settings you already created.
