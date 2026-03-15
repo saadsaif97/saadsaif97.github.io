@@ -3,7 +3,7 @@ export const SITE = {
   author: "Saad Saif",
   profile: "https://ecomwonk.com",
   desc: "Freelance Shopify theme developer and trainer.",
-  title: "Saad Saif",
+  title: "EcomWonk",
   ogImage: "freelance-shopify-developer-trainer.png",
   lightAndDarkMode: false,
   postPerIndex: 4,
