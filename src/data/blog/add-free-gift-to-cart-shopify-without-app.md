@@ -411,3 +411,11 @@ Set up an automatic discount for the free gift item. Ensure the free gift item i
 Go to the snippets -> `cart-drawer.liquid` and search for `class="cart-item__quantity `, then add this code after that: `{%  if item.product.handle == free_gift_handle %} free_gift_item {% endif %}` and also in the line above that you to add this line: `{%- assign free_gift_handle = settings.free_gift_item | default: 'beanie-chocolate-free-gift' -%}`
 
 This step will hide the quantity buttons for the free gift and useds will not be able to add more than 1 free gifts in the cart.
+
+---
+
+## Video Tutorial
+
+Watch the step-by-step video tutorial here:
+
+[![Shopify Free Gift in Cart (No App) | Increase AOV with Free Gift & Progress Bar](https://img.youtube.com/vi/6YlGCUmJ6VY/maxresdefault.jpg)](https://www.youtube.com/watch?v=6YlGCUmJ6VY)
