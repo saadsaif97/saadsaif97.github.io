@@ -4,7 +4,7 @@ author: Saad Saif
 pubDatetime: 2025-10-06T05:17:19Z
 slug: add-custom-badges-on-shopify-products-without-app
 draft: false
-featured: true
+featured: false
 ogImage: ../../assets/images/Add custom badges on Shopify products without app.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
 description: Add custom badges on Shopify products, without app (code snippet given).
