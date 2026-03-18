@@ -39,6 +39,19 @@ Benifits of native quanitity bundle:
 
 ---
 
+Quantity bundles work best for products that are consumable, reusable, or frequently bought in multiples.
+
+- Socks & Apparel: People often need multiples; easy to justify “buy more, save more.”
+- Supplements & Vitamins: Daily use products encourage bulk purchases.
+- Pet Supplies: Food, treats, and chewables are bought regularly.
+- Beauty & Skincare: Lotions, masks, and serums are replenished often.
+- Snacks & Food Items: Consumables that run out quickly benefit from bundles.
+- Cleaning & Household Supplies: Detergents, wipes, and paper products are used regularly.
+- Stationery & Office Supplies: Pens, notebooks, and printer supplies are often purchased in sets.
+- Fitness & Health Products: Resistance bands, protein powders, and recovery items work well in multiples.
+
+---
+
 ## Why Quantity Bundles Increase Sales
 
 Quantity bundles work because they use psychological pricing and visual incentives.
