@@ -20,7 +20,7 @@ If you want to increase your Shopify store's average order value (AOV), one of t
 
 <figure>
   <img
-    src="../Quantity Bundles.png"
+    src="https://ecomwonk.com/Quantity Bundles.png"
     alt="How to Create Quantity Bundles in Shopify Without an App (Increase AOV)"
   />
 </figure>
