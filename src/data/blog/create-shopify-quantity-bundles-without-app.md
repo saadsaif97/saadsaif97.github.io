@@ -1,7 +1,7 @@
 ---
 title: Shopify Quantity Bundles without app
 author: Saad Saif
-pubDatetime: 2025-03-18T05:17:19Z
+pubDatetime: 2026-03-17T05:17:19Z
 slug: add-custom-badges-on-shopify-products-without-app
 draft: false
 featured: true
