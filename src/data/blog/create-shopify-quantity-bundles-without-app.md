@@ -469,3 +469,11 @@ document.addEventListener('DOMContentLoaded', function() {
 4. Go to theme editor and create a new product template, where we will use this block. And for the corresponding product assign this template. In this template, use this block and adjust the price and discounted value as required. (you can see the video for this step)
 
 5. Then create the automatic discount according to your needs for the corresponding product.
+
+---
+
+## Video Tutorial
+
+Watch the step-by-step video tutorial here:
+
+[![How to Create Quantity Bundles in Shopify Without an App Increase AOV](https://img.youtube.com/vi/2w2GkDnU7kQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=2w2GkDnU7kQ)
