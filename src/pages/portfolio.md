@@ -3,6 +3,26 @@ layout: ../layouts/AboutLayout.astro
 title: "Portfolio"
 ---
 
+## Shopify Development Skills
+
+A quick overview of my technical expertise with real implementation videos:
+
+- [Shopify Cart API & AJAX](https://youtu.be/pdQCyUWFIcY?si=Gz77MqrdU4EgMnuB)
+- [Shopify section rendering API (helps to update the page data without reloading the page)](https://youtu.be/IcohW1PHDdE?si=7mEo08UENsbQpblE)
+- [GraphQL (Shopify Data Layer)](https://youtu.be/T4nkIYuT-rM?si=Qbnp6kRc0yU_emWL)
+- [Checkout UI Extensions (Shopify Plus)](https://youtu.be/PQxL8398ZAA?si=Vu7P4fCBugsRiqF2)
+- [Metafields & Metaobjects, I cerated the labels and badges in Shopify without using any app and used Metafields and metaobjects to build this](https://youtu.be/hSl7Y2t_aNM?si=fxkYM4FkSYiFqqEA)
+- [Web components to create the infinite scroll on collection page](https://youtu.be/ojao6BS8KPk?si=z2VEUt1vK5LfhnTh)
+- [Shopify Theme Development, I created full course on YouTube in URDU 8 hours+ training](https://youtu.be/OyKPjmEAE8E?si=zJeD4eu9TteHpXMa)
+  - I covered full shopify theme architecture
+  - created a full Shopify theme from scratch
+  - web components
+  - Shopify CART API
+- [HTML, CSS & JavaScript (Frontend Fundamentals), I created 2.5 hours long video training](https://youtu.be/z2m2qSAk3nc?si=0D_zcGPLXDgnovai)
+  - Created 7 real world Shopify projects
+
+---
+
 ## Buy More, Save More Quantity Bundles in Shopify (No App)
 
 Developed a custom “Buy More, Save More” quantity bundle system in Shopify without relying on any third-party apps. This feature encourages customers to purchase higher quantities by offering tiered discounts directly on the product page.
