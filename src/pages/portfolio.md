@@ -7,19 +7,24 @@ title: "Portfolio"
 
 A quick overview of my technical expertise with real implementation videos:
 
-- [Shopify Cart API & AJAX](https://youtu.be/pdQCyUWFIcY?si=Gz77MqrdU4EgMnuB)
-- [Shopify section rendering API (helps to update the page data without reloading the page)](https://youtu.be/IcohW1PHDdE?si=7mEo08UENsbQpblE)
-- [GraphQL (Shopify Data Layer)](https://youtu.be/T4nkIYuT-rM?si=Qbnp6kRc0yU_emWL)
-- [Checkout UI Extensions (Shopify Plus)](https://youtu.be/PQxL8398ZAA?si=Vu7P4fCBugsRiqF2)
-- [Metafields & Metaobjects, I cerated the labels and badges in Shopify without using any app and used Metafields and metaobjects to build this](https://youtu.be/hSl7Y2t_aNM?si=fxkYM4FkSYiFqqEA)
-- [Web components to create the infinite scroll on collection page](https://youtu.be/ojao6BS8KPk?si=z2VEUt1vK5LfhnTh)
-- [Shopify Theme Development, I created full course on YouTube in URDU 8 hours+ training](https://youtu.be/OyKPjmEAE8E?si=zJeD4eu9TteHpXMa)
-  - I covered full shopify theme architecture
-  - created a full Shopify theme from scratch
-  - web components
-  - Shopify CART API
-- [HTML, CSS & JavaScript (Frontend Fundamentals), I created 2.5 hours long video training](https://youtu.be/z2m2qSAk3nc?si=0D_zcGPLXDgnovai)
-  - Created 7 real world Shopify projects
+- <a href="https://youtu.be/pdQCyUWFIcY?si=Gz77MqrdU4EgMnuB" target="_blank">Shopify Cart API & AJAX</a>
+- <a href="https://youtu.be/IcohW1PHDdE?si=7mEo08UENsbQpblE" target="_blank">Shopify Section Rendering API (update page without reload)</a>
+- <a href="https://youtu.be/T4nkIYuT-rM?si=Qbnp6kRc0yU_emWL" target="_blank">GraphQL (Shopify Data Layer)</a>
+- <a href="https://youtu.be/PQxL8398ZAA?si=Vu7P4fCBugsRiqF2" target="_blank">Checkout UI Extensions (Shopify Plus)</a>
+
+- <a href="https://youtu.be/hSl7Y2t_aNM?si=fxkYM4FkSYiFqqEA" target="_blank">Metafields & Metaobjects (labels & badges without app)</a>
+
+- <a href="https://youtu.be/ojao6BS8KPk?si=z2VEUt1vK5LfhnTh" target="_blank">Web Components (Infinite Scroll)</a>
+
+- <a href="https://youtu.be/OyKPjmEAE8E?si=zJeD4eu9TteHpXMa" target="_blank">Shopify Theme Development (8+ Hours Course)</a>
+  - Covered full Shopify theme architecture  
+  - Built theme from scratch  
+  - Web components  
+  - Shopify Cart API  
+
+- <a href="https://youtu.be/z2m2qSAk3nc?si=0D_zcGPLXDgnovai" target="_blank">HTML, CSS & JavaScript (Frontend Fundamentals)</a>
+  - 2.5 hours training  
+  - Built 7 real-world Shopify projects  
 
 ---
 
