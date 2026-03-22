@@ -92,7 +92,7 @@ Implemented using Liquid and JavaScript in the Shopify Dawn theme, this lightwei
 <div class="aspect-video w-full max-w-4xl mx-auto mt-6">
   <iframe
     class="w-full h-full rounded-xl"
-    src="https://www.youtube.com/embed/a6yeeiXlzC4?autoplay=1&mute=1&loop=1&playlist=a6yeeiXlzC4&controls=0&modestbranding=1"
+    src="https://www.youtube.com/embed/xNGmWEHcioY?autoplay=1&mute=1&loop=1&playlist=xNGmWEHcioY&controls=0&modestbranding=1"
     allow="autoplay; encrypted-media"
     allowfullscreen>
   </iframe>
