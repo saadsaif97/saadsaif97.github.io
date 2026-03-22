@@ -48,7 +48,7 @@ The UI is fully customizable, allowing merchants to highlight best offers, displ
     Read Full Blog
   </a>
 
-  <a href="https://www.youtube.com/watch?v=voH0c2v80X8" target="_blank" class="text-blue-400 font-medium">
+  <a href="https://www.youtube.com/watch?v=2w2GkDnU7kQ" target="_blank" class="text-blue-400 font-medium">
     Watch Full Video
   </a>
 </div>
@@ -56,7 +56,7 @@ The UI is fully customizable, allowing merchants to highlight best offers, displ
 <div class="aspect-video w-full max-w-4xl mx-auto mt-6">
   <iframe
     class="w-full h-full rounded-xl shadow-lg"
-    src="https://www.youtube.com/embed/voH0c2v80X8?autoplay=1&mute=1&loop=1&playlist=voH0c2v80X8&controls=0&modestbranding=1"
+    src="https://www.youtube.com/embed/643z_cOz4Ig?autoplay=1&mute=1&loop=1&playlist=643z_cOz4Ig&controls=0&modestbranding=1"
     allow="autoplay; encrypted-media"
     allowfullscreen>
   </iframe>
@@ -84,7 +84,7 @@ Implemented using Liquid and JavaScript in the Shopify Dawn theme, this lightwei
     Read Full Blog
   </a>
 
-  <a href="https://www.youtube.com/watch?v=a6yeeiXlzC4" target="_blank" class="text-blue-400 font-medium">
+  <a href="https://www.youtube.com/watch?v=6YlGCUmJ6VY" target="_blank" class="text-blue-400 font-medium">
     Watch Full Video
   </a>
 </div>
