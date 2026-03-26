@@ -2,7 +2,7 @@
 title: Shopify Bundle Builder without APP
 author: Saad Saif
 pubDatetime: 2026-03-26T05:17:19Z
-slug: how-to-design-custom-product-labels-and-badges-shopify
+slug: shopify-bundle-builder-without-app
 draft: false
 featured: true
 ogImage: ../../assets/images/Shopify Bundle Builder without APP.png # src/assets/images/example.png
