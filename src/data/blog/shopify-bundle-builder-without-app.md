@@ -7,7 +7,7 @@ draft: false
 featured: true
 ogImage: ../../assets/images/Shopify Bundle Builder without APP.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: Create Bundle Builder in Shopify without app in Shopify (code snippet given).
+description: Create Bundle Builder without app in Shopify (code snippet given).
 ---
 
 # Shopify Bundle Builder without APP
@@ -1538,5 +1538,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 7. Then Setup the automatic discounts as shown in the image
 
+8. Then setup the automatic discounts for each bundle and collection accordingly
+
 > [!NOTE]
 > Make sure that each item in the collection has the same price.
+
+---
+
+## Video Tutorial
+
+Watch the step-by-step video tutorial here:
+
+[![Shopify Bundle Builder without APP](https://img.youtube.com/vi/vm5PouhM9T0/maxresdefault.jpg)](https://www.youtube.com/watch?v=vm5PouhM9T0)
