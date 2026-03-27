@@ -3,31 +3,6 @@ layout: ../layouts/AboutLayout.astro
 title: "Portfolio"
 ---
 
-## Shopify Development Skills
-
-A quick overview of my technical expertise with real implementation videos:
-
-- <a href="https://youtu.be/pdQCyUWFIcY?si=Gz77MqrdU4EgMnuB" target="_blank">Shopify Cart API & AJAX</a>
-- <a href="https://youtu.be/IcohW1PHDdE?si=7mEo08UENsbQpblE" target="_blank">Shopify Section Rendering API (update page without reload)</a>
-- <a href="https://youtu.be/T4nkIYuT-rM?si=Qbnp6kRc0yU_emWL" target="_blank">GraphQL (Shopify Data Layer)</a>
-- <a href="https://youtu.be/PQxL8398ZAA?si=Vu7P4fCBugsRiqF2" target="_blank">Checkout UI Extensions (Shopify Plus)</a>
-
-- <a href="https://youtu.be/hSl7Y2t_aNM?si=fxkYM4FkSYiFqqEA" target="_blank">Metafields & Metaobjects (labels & badges without app)</a>
-
-- <a href="https://youtu.be/ojao6BS8KPk?si=z2VEUt1vK5LfhnTh" target="_blank">Web Components (Infinite Scroll)</a>
-
-- <a href="https://youtu.be/OyKPjmEAE8E?si=zJeD4eu9TteHpXMa" target="_blank">Shopify Theme Development (8+ Hours Course)</a>
-  - Covered full Shopify theme architecture  
-  - Built theme from scratch  
-  - Web components  
-  - Shopify Cart API  
-
-- <a href="https://youtu.be/z2m2qSAk3nc?si=0D_zcGPLXDgnovai" target="_blank">HTML, CSS & JavaScript (Frontend Fundamentals)</a>
-  - 2.5 hours training  
-  - Built 7 real-world Shopify projects  
-
----
-
 ## Custom Shopify Bundle Builder (No App Needed)
 
 I built a custom bundle builder in Shopify that lets customers create their own product packs without using any third-party apps.
@@ -88,7 +63,7 @@ The UI is fully customizable, allowing merchants to highlight best offers, displ
 <div class="aspect-video w-full max-w-4xl mx-auto mt-6">
   <iframe
     class="w-full h-full rounded-xl shadow-lg"
-    src="https://www.youtube.com/embed/643z_cOz4Ig?autoplay=1&mute=1&loop=1&playlist=643z_cOz4Ig&controls=0&modestbranding=1"
+    src="https://www.youtube.com/embed/zGoiipP9-Hs?autoplay=1&mute=1&loop=1&playlist=zGoiipP9-Hs&controls=0&modestbranding=1"
     allow="autoplay; encrypted-media"
     allowfullscreen>
   </iframe>
@@ -213,6 +188,31 @@ Developed a custom infinite scroll that works with filters and sorting.
   </iframe>
 </div>
 
+---
+
+## Shopify Development Skills
+
+A quick overview of my technical expertise with real implementation videos:
+
+- <a href="https://youtu.be/pdQCyUWFIcY?si=Gz77MqrdU4EgMnuB" target="_blank">Shopify Cart API & AJAX</a>
+- <a href="https://youtu.be/IcohW1PHDdE?si=7mEo08UENsbQpblE" target="_blank">Shopify Section Rendering API (update page without reload)</a>
+- <a href="https://youtu.be/T4nkIYuT-rM?si=Qbnp6kRc0yU_emWL" target="_blank">GraphQL (Shopify Data Layer)</a>
+- <a href="https://youtu.be/PQxL8398ZAA?si=Vu7P4fCBugsRiqF2" target="_blank">Checkout UI Extensions (Shopify Plus)</a>
+
+- <a href="https://youtu.be/hSl7Y2t_aNM?si=fxkYM4FkSYiFqqEA" target="_blank">Metafields & Metaobjects (labels & badges without app)</a>
+
+- <a href="https://youtu.be/ojao6BS8KPk?si=z2VEUt1vK5LfhnTh" target="_blank">Web Components (Infinite Scroll)</a>
+
+- <a href="https://youtu.be/OyKPjmEAE8E?si=zJeD4eu9TteHpXMa" target="_blank">Shopify Theme Development (8+ Hours Course)</a>
+  - Covered full Shopify theme architecture  
+  - Built theme from scratch  
+  - Web components  
+  - Shopify Cart API  
+
+- <a href="https://youtu.be/z2m2qSAk3nc?si=0D_zcGPLXDgnovai" target="_blank">HTML, CSS & JavaScript (Frontend Fundamentals)</a>
+  - 2.5 hours training  
+  - Built 7 real-world Shopify projects  
+  
 ---
 
 ## YouTube Channel
