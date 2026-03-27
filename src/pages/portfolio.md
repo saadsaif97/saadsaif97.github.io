@@ -28,6 +28,38 @@ A quick overview of my technical expertise with real implementation videos:
 
 ---
 
+## Custom Shopify Bundle Builder (No App Needed)
+
+I built a custom bundle builder in Shopify that lets customers create their own product packs without using any third-party apps.
+
+This helps store owners save monthly app costs, improve site speed, and keep everything fully controlled inside Shopify using metaobjects and metafields.
+
+Customers can easily pick products, choose variants, and see their bundle update instantly, which makes the buying experience smoother and increases conversion chances.
+
+The result is a faster, cleaner, and more scalable solution that works perfectly on both desktop and mobile without relying on heavy apps.
+
+<div class="flex flex-wrap gap-4 mt-4">
+  <a href="https://ecomwonk.com/posts/shopify-bundle-builder-without-app/" target="_blank" class="text-blue-400 font-medium">
+    Read Full Blog
+  </a>
+
+  <a href="https://www.youtube.com/watch?v=vm5PouhM9T0" target="_blank" class="text-blue-400 font-medium">
+    Watch Full Video
+  </a>
+</div>
+
+
+<div class="aspect-video w-full max-w-4xl mx-auto mt-6">
+  <iframe
+    class="w-full h-full rounded-xl shadow-lg"
+    src="https://www.youtube.com/embed/u-t32XOki-U?autoplay=1&mute=1&loop=1&playlist=u-t32XOki-U&controls=0&modestbranding=1"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</div>
+
+---
+
 ## Buy More, Save More Quantity Bundles in Shopify (No App)
 
 Developed a custom “Buy More, Save More” quantity bundle system in Shopify without relying on any third-party apps. This feature encourages customers to purchase higher quantities by offering tiered discounts directly on the product page.
