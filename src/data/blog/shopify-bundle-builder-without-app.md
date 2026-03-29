@@ -27,8 +27,6 @@ We will create Bundle Builder in Shopify without APP using metafield and metaobj
 
 1. Create the `bundle_offer` Metaobject Type. Go to: **Settings → Custom Data → Metaobjects → Add definition**
 
-## Fields
-
 | Field Label     | Handle         | Type                  | Notes                          |
 |----------------|---------------|-----------------------|--------------------------------|
 | Title          | `title`        | Single line text      | e.g. "Buy 3, Save 30%"         |

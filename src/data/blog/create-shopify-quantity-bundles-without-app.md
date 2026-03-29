@@ -74,11 +74,11 @@ Many successful eCommerce brands use "Buy More, Save More" bundles on the produc
 
 Many Shopify merchants install apps to create bundles, but this can create several problems.
 
-1. Slower Store Speed: Apps often load extra JavaScript and CSS, which slows down your product pages.
+- Slower Store Speed: Apps often load extra JavaScript and CSS, which slows down your product pages.
 
-2. Monthly Costs: Bundle apps can cost $15–$50 per month, which adds up over time.
+- Monthly Costs: Bundle apps can cost $15–$50 per month, which adds up over time.
 
-3. Limited Customization: Apps usually restrict how much you can customize the UI.
+- Limited Customization: Apps usually restrict how much you can customize the UI.
 
 ---
 
