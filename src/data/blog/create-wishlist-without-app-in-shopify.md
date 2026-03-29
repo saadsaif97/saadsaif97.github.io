@@ -10,8 +10,26 @@ ogImage: ../../assets/images/Create Wishlist in Shopify without using APP.png # 
 description: Add custom badges on Shopify products, without app (code snippet given).
 ---
 
-# Create Wishlist in Shopify without using APP
+# Shopify Wishlist Without App (Step-by-Step) | Shareable Wishlist Using Code
 
+I have created this solution in DAWN theme and hopefully it will work in other themes as well but if you need my help I can also collaborate with you.
+
+Want to add a wishlist feature to your Shopify store without using any app or paying monthly fees?
+
+In this step-by-step tutorial, I’ll show you how to create a fully functional and shareable wishlist using custom code in Shopify.
+
+Implementation Steps Covered
+
+- Create easy-wish.liquid section
+- Create easy-wish.liquid snippet
+- Add easy-wish.js file
+- Add easy-wish.css styling
+- Update en.default.json (locales)
+- Add code before closing </body> in theme.liquid
+
+This method is perfect for Shopify developers and store owners who want better performance and full control over their store features.
+
+If you need help implementing this in your store, feel free to reach out.
 
 ---
 
@@ -1313,3 +1331,8 @@ body.ew-locked { overflow: hidden; }
 ```liquid
 {% render 'easy-wish' %}
 ```
+## Video Tutorial
+
+Watch the step-by-step video tutorial here:
+
+[![Shopify Bundle Builder without APP](https://img.youtube.com/vi/aHq5GcHgcMw/maxresdefault.jpg)](https://www.youtube.com/watch?v=aHq5GcHgcMw)
