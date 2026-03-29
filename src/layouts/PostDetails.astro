@@ -172,6 +172,19 @@ const nextPost =
       }
     </div>
   </main>
+  <!-- Steps TOC: desktop only, hidden on mobile -->
+  <nav
+    id="steps-toc"
+    aria-label="Steps navigation"
+    class="fixed top-24 hidden max-h-[70vh] overflow-y-auto xl:block bg-muted/50 w-full p-2"
+    style="left: calc(50% + 24rem + 1.5rem);"
+  >
+    <p class="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground/50">
+      Table of Content:
+    </p>
+    <ul id="steps-toc-list" class="space-y-1 text-sm"></ul>
+  </nav>
+
   <Footer />
 </Layout>
 
@@ -294,4 +307,112 @@ const nextPost =
   document.addEventListener("astro:after-swap", () =>
     window.scrollTo({ left: 0, top: 0, behavior: "instant" })
   );
+
+  /** Build sticky steps TOC on desktop */
+  function buildStepsToc() {
+    const toc = document.getElementById("steps-toc");
+    const list = document.getElementById("steps-toc-list");
+    if (!toc || !list) return;
+
+    const article = document.getElementById("article");
+    if (!article) return;
+
+    // ── Collect items: headings + top-level <ol> list items ──────────────
+    const entries = []; // { el, label, indent }
+
+    // h2 / h3 headings with ids
+    article.querySelectorAll("h2[id], h3[id]").forEach(h => {
+      const label =
+        h.childNodes[0]?.textContent?.trim() ?? h.textContent?.trim() ?? "";
+      entries.push({ el: h, label, indent: h.tagName === "H3" });
+    });
+
+    // top-level <ol> → <li> items (not nested)
+    let olStepCounter = 0;
+    article.querySelectorAll("ol > li").forEach(li => {
+      // skip if it's inside a nested list (parent ol is itself inside a li)
+      if (li.parentElement?.closest("li")) return;
+
+      if (!li.id) {
+        olStepCounter++;
+        li.id = "toc-step-" + olStepCounter;
+      }
+
+      // grab first text content (before any nested element like <code>/<pre>)
+      let label = `Step: ${olStepCounter}) `;
+      for (const node of li.childNodes) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          label += `${node.textContent}`;
+        } else if (
+          node.nodeType === Node.ELEMENT_NODE &&
+          !["OL", "UL", "PRE"].includes(node.tagName)
+        ) {
+          label += `${node.textContent}`;
+        } else {
+          break; // stop at code blocks / nested lists
+        }
+      }
+      label = label.trim().replace(/\s+/g, " ");
+      if (label.length > 60) label = `${label.slice(0, 57)}…`;
+
+      entries.push({ el: li, label, indent: true });
+    });
+
+    // sort entries by DOM order
+    entries.sort((a, b) =>
+      a.el.compareDocumentPosition(b.el) & Node.DOCUMENT_POSITION_FOLLOWING
+        ? -1
+        : 1
+    );
+
+    if (entries.length === 0) {
+      toc.style.display = "none";
+      return;
+    }
+
+    list.innerHTML = "";
+
+    entries.forEach(({ el, label, indent }) => {
+      const li = document.createElement("li");
+      const a = document.createElement("a");
+      a.href = "#" + el.id;
+      a.textContent = label;
+      a.dataset.tocTarget = el.id;
+      a.className =
+        "block rounded px-2 py-1 leading-snug text-foreground/60 hover:text-foreground hover:bg-foreground/5 transition-colors duration-150 no-underline text-xs" +
+        (indent ? " pl-4" : " font-medium");
+      a.addEventListener("click", e => {
+        e.preventDefault();
+        el.scrollIntoView({ behavior: "smooth" });
+        history.pushState(null, "", "#" + el.id);
+      });
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+
+    // ── Highlight active item via IntersectionObserver ────────────────────
+    const links = list.querySelectorAll("a[data-toc-target]");
+
+    function setActive(id) {
+      links.forEach(link => {
+        const active = link.dataset.tocTarget === id;
+        link.classList.toggle("text-accent", active);
+        link.classList.toggle("font-semibold", active);
+        link.classList.toggle("text-foreground/60", !active);
+      });
+    }
+
+    const observer = new IntersectionObserver(
+      entries => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) setActive(entry.target.id);
+        }
+      },
+      { rootMargin: "0px 0px -70% 0px", threshold: 0 }
+    );
+
+    entries.forEach(({ el }) => observer.observe(el));
+  }
+
+  buildStepsToc();
 </script>
