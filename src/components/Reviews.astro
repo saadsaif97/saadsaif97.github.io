@@ -32,7 +32,7 @@
 import { FIREBASE } from "@/config";
 ---
 
-<section id="reviews-section" class="mt-10 p-0" data-firebase={JSON.stringify(FIREBASE)}>
+<section id="reviews-section" class="mt-10 p-0" data-firebase={JSON.stringify(FIREBASE)} data-webhook={import.meta.env.PUBLIC_REVIEW_WEBHOOK_URL || ""}>
   <h2 id="reviews" class="mb-1 text-lg font-semibold text-foreground">Reviews</h2>
 
   <!-- Average rating summary -->
@@ -112,6 +112,7 @@ import { FIREBASE } from "@/config";
   if (!section) return;
 
   const firebaseConfig = JSON.parse(section.dataset.firebase || "{}");
+  const webhookUrl = section.dataset.webhook || "";
   const postId = location.pathname.replace(/\//g, "_").replace(/^_|_$/g, "") || "home";
 
   // ── Lazy-load Firebase SDKs ────────────────────────────────────────────────
@@ -225,6 +226,20 @@ import { FIREBASE } from "@/config";
         });
         formMsg.textContent = "Review saved!";
         setTimeout(() => { formMsg.textContent = ""; }, 3000);
+
+        // Notify Make.com webhook
+        if (webhookUrl) {
+          fetch(webhookUrl, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              name: user.displayName || "Anonymous",
+              rating,
+              body: bodyInput.value.trim().slice(0, 1000),
+              post: location.href,
+            }),
+          }).catch(() => {}); // fire-and-forget, don't block the UI
+        }
         // Reset form
         selectedRating = 0;
         ratingInput.value = 0;
