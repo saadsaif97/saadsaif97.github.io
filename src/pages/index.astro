@@ -67,17 +67,6 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         </a>
       </div>
 
-      {
-        SOCIALS.length > 0 && (
-          <div class="mt-6 flex flex-col sm:flex-row sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
-              Connect with me:
-            </div>
-            <Socials />
-          </div>
-        )
-      }
-
       <p class="mt-6 max-w-2xl text-sm text-foreground/60">
         I also share my Shopify development knowledge through
         <LinkButton
@@ -173,6 +162,43 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         class="inline-block rounded bg-green-600 px-6 py-3 text-center text-sm font-medium text-white transition hover:bg-green-700"
       >
         Request Your Free Audit
+      </a>
+
+    </section>
+
+    <Hr />
+
+    <!-- APP-FREE AUDIT -->
+    <section id="app-free-audit" class="pt-12 pb-6">
+
+      <h2 class="mb-2 text-2xl font-semibold tracking-wide">
+        The App-Free Audit: Features You Can Build in Your theme natively withou relying on the app
+      </h2>
+
+      <p class="mb-4 max-w-2xl text-sm">
+        Most Shopify stores are paying $20-$50/month on apps that can be replaced with
+        a few lines of custom Liquid code. I'll audit your app stack and tell you exactly
+        which ones are slowing your store down and costing you money unnecessarily.
+      </p>
+
+      <ul class="mb-6 space-y-2 max-w-2xl text-sm">
+        <li>✓ Full review of your installed apps</li>
+        <li>✓ Identify apps you can remove and replace with custom code</li>
+        <li>✓ Estimated monthly savings & page speed impact for each</li>
+        <li>✓ Delivered via WhatsApp or email within 48 hours, free, no strings attached</li>
+      </ul>
+
+      <p class="mb-6 max-w-2xl text-sm text-accent font-medium">
+        Common culprits: bundle builders, basic upsells, sticky add-to-cart bars.
+      </p>
+
+      <a
+        href="https://wa.me/+923314002075?text=Hi Saad, I'd like the App-Free Audit for my Shopify store"
+        target="_blank"
+        rel="noopener"
+        class="inline-block rounded bg-green-600 px-6 py-3 text-center text-sm font-medium text-white transition hover:bg-green-700"
+      >
+        Get My App-Free Audit
       </a>
 
     </section>
