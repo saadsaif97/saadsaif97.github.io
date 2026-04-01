@@ -4,7 +4,7 @@ author: Saad Saif
 pubDatetime: 2024-11-17T05:17:19Z
 slug: how-to-design-custom-product-labels-and-badges-shopify
 draft: false
-featured: true
+featured: false
 ogImage: ../../assets/images/Create custom product labels and badges in Shopify without any app.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
 description: Create custom labels and badges without app in Shopify (code snippet given).

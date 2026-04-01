@@ -4,7 +4,7 @@ author: Saad Saif
 pubDatetime: 2025-09-24T05:17:19Z
 slug: add-infinity-scroll-shopify-collection-page
 draft: false
-featured: true
+featured: false
 ogImage: ../../assets/images/Add infinity scroll to shopify collection page.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
 description: Add Infinity scroll in any theme (code snippet given).
