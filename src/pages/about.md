@@ -4,11 +4,11 @@ title: "About Me"
 ---
 
 
-![Astro Paper](public/expert-shopify-developer.png)
+![Saad Saif - Expert Shopify Developer](public/expert-shopify-developer.png)
 
-Hi, I’m **Saad Saif** - a Shopify theme developer and trainer with a passion to create custom solutions without relying on apps for the Shopify stores.
+Hi, I’m **Saad Saif** - a Shopify theme developer and trainer with a passion to create custom solutions without relying on apps for Shopify stores.
 
-Over the last **4+ years**, I’ve worked with **100+ Shopify stores**, including **20+ Shopify Plus projects**, building everything from **custom features** and **checkout extensions** to **complete store redesigns**. I’ve also created **50+ custom sections and blocks**, solved **100+ bugs**, recorded **70+ video tutorial regarding Shopify theme development**, and optimized store performance for faster load times and better conversions.
+Over the last **4+ years**, I’ve worked with **100+ Shopify stores**, including **20+ Shopify Plus projects**, building everything from custom features and checkout extensions to complete store redesigns. Along the way I’ve built **50+ custom sections and blocks**, solved **100+ bugs**, and optimized store performance for faster load times and better conversions.
 
 When you work with me, you get:
 - **Custom development** tailored to your business
@@ -30,18 +30,18 @@ I’ve created two in-depth courses:
 2. **10+ Real-World JavaScript Projects in Shopify Themes (English)**
    Learn JavaScript debugging, web components, and Shopify’s Cart API with hands-on projects like free shipping progress bars, cart upsells, gift wrapping options, and image swatches.
 
-I also share **code snippets, tutorials, and tips** on my **blog** and **YouTube channel**, making Shopify development easier for everyone.
+I also share **code snippets, tutorials, and tips** on my **[blog](/posts)** and **[YouTube channel](https://www.youtube.com/@saadsaif97/videos)**, making Shopify development easier for everyone.
 
 ---
 
 ## Why Work With Me?
 
-- **Proven Track Record:** 100+ stores built or optimized
-- **Shopify Plus Expertise:** 20+ advanced projects completed
-- **Checkout Customization:** 50+ extensions and functions created
-- **Performance First:** Every feature built with speed and SEO in mind
-- **Transparent Communication:** Clear timelines, no technical jargon
+- **Clean, App-Free Solutions:** Custom-coded features that keep your store fast and lean
+- **Shopify Plus Experience:** Comfortable with advanced checkout extensions and complex builds
+- **Performance & SEO First:** Every feature built with speed and search visibility in mind
+- **Transparent Communication:** Clear timelines, honest updates, no technical jargon
+- **End-to-End Ownership:** From scoping to delivery, I handle it without back-and-forth hand-offs
 
-Whether you need a **custom theme feature**, a **checkout extension**, or a **speed boost**, I can help you make it happen—quickly, cleanly, and without unnecessary complexity.
+Whether you need a **custom theme feature**, a **checkout extension**, or a **speed boost**, I can help you make it happen quickly, cleanly, and without unnecessary complexity.
 
-📩 **[Book a meeting](https://calendly.com/saadgfx97/shopify-theme-development)** or explore my **[Services](/#services)** to see how I can help.
+Browse my **[Portfolio](/portfolio)** to see real examples, or **[book a meeting](https://calendly.com/saadgfx97/shopify-theme-development)** to talk through your project.
