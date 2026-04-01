@@ -7,7 +7,6 @@ import Socials from "@/components/Socials.astro";
 import LinkButton from "@/components/LinkButton.astro";
 import Card from "@/components/Card.astro";
 import Hr from "@/components/Hr.astro";
-import ServiceCard from "@/components/ServiceCard.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
@@ -24,65 +23,141 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
 
   <main id="main-content" data-layout="index">
-    
-    <!-- TECHNICAL RETAINER -->
-    <section id="retainer" class="pt-12 pb-6">
 
-      <h2 class="mb-2 text-2xl font-semibold tracking-wide">
-        Technical Retainer for Small Shopify Store Owners
-      </h2>
+    <!-- HERO -->
+    <section id="hero" class="pt-8 pb-6">
 
-      <p class="mb-4 max-w-2xl text-sm">
-        Running a small Shopify store and constantly running into small technical issues, tweaks, or feature requests?
-        Instead of hiring an agency or paying per-project rates, get a dedicated Shopify developer on retainer, available every month, ready when you need me.
+      <h1 class="my-4 inline-block text-3xl font-bold sm:my-8 sm:text-4xl">
+        Solo Shopify Developer
+      </h1>
+
+      <p class="max-w-2xl">
+        I'm <strong>Saad Saif</strong>, a solo Shopify developer specializing in
+        <strong>custom Shopify functionality, theme customization, and store performance optimization</strong>.
       </p>
 
-      <ul class="mb-6 space-y-2 max-w-2xl text-sm">
-        <li>✓ Up to <strong>8 hours/month</strong> of Shopify development work</li>
-        <li>✓ Theme fixes, custom tweaks, section edits, app integrations</li>
-        <li>✓ Priority WhatsApp access, no ticket system, no agency delays</li>
-        <li>✓ Monthly report of work done & suggestions for the next month</li>
-        <li>✓ Cancel anytime, no long-term contracts</li>
-      </ul>
-
-      <p class="mb-6 max-w-2xl text-sm text-accent font-medium">
-        Best for stores doing $5k–$50k/month that need a reliable developer without full-time costs.
+      <p class="mt-4 max-w-2xl">
+        I help Shopify brands and agencies build faster, scalable storefronts by
+        implementing custom features and removing reliance on heavy apps,
+        improving <strong>conversion rate (CRO)</strong> and
+        <strong>average order value (AOV)</strong>.
       </p>
 
-      <div class="flex flex-col gap-4 sm:flex-row">
+      <p class="mt-4 max-w-2xl">
+        When you message me, you directly chat with me, no middleman or non-technical manager between us.
+      </p>
+
+      <div class="mt-6 flex flex-col gap-4 sm:flex-row">
         <a
-          href="https://wa.me/+923314002075?text=Hi Saad, I'm interested in the Technical Retainer for my Shopify store"
+          href="https://wa.me/+923314002075?text=Hi Saad, I am interested in your Shopify services"
           target="_blank"
           rel="noopener"
           class="inline-block rounded bg-green-600 px-6 py-3 text-center text-sm font-medium text-white transition hover:bg-green-700"
         >
-          Inquire on WhatsApp
+          Chat on WhatsApp
         </a>
 
         <a
-          href="https://calendly.com/saadgfx97/shopify-theme-development"
+          href="https://wa.me/+923314002075?text=Hi Saad, I'd like a free Shopify store audit"
           target="_blank"
           rel="noopener"
-          class="inline-block rounded border border-muted px-6 py-3 text-center text-sm font-medium text-white transition"
+          class="inline-block rounded border border-muted px-6 py-3 text-center text-sm font-medium text-white transition hover:border-white"
         >
-          Book a Quick Call
+          Get a Free Store Audit
         </a>
+      </div>
+
+      {
+        SOCIALS.length > 0 && (
+          <div class="mt-6 flex flex-col sm:flex-row sm:items-center">
+            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
+              Connect with me:
+            </div>
+            <Socials />
+          </div>
+        )
+      }
+
+      <p class="mt-6 max-w-2xl text-sm text-foreground/60">
+        I also share my Shopify development knowledge through
+        <LinkButton
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          href="/courses"
+        >
+          courses
+        </LinkButton>,
+        <LinkButton
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          href="/posts"
+        >
+          blog posts
+        </LinkButton>,
+        and my
+        <LinkButton
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          href="https://www.youtube.com/@saadsaif97/videos"
+        >
+          YouTube channel
+        </LinkButton>.
+      </p>
+
+    </section>
+
+    <Hr />
+
+    <!-- TRUST SECTION -->
+    <section class="pt-12 pb-6">
+
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">
+        Trusted by Shopify Brands & Developers
+      </h2>
+
+      <ul class="mb-8 space-y-2 max-w-2xl text-sm">
+        <li>• 4+ years of Shopify development experience</li>
+        <li>• Built custom functionality for multiple Shopify stores</li>
+        <li>• 1600+ developers learning from my YouTube tutorials</li>
+        <li>• 4000+ professionals following my Shopify insights on LinkedIn</li>
+        <li>• Specialized in custom Shopify solutions without heavy apps</li>
+      </ul>
+
+      <!-- TESTIMONIALS — replace with real client quotes -->
+      <div class="grid gap-4 sm:grid-cols-2 max-w-2xl">
+
+        <blockquote class="rounded-lg border border-foreground/10 bg-foreground/[0.03] p-4 text-sm">
+          <p class="mb-3 text-foreground/80">
+            "Saad is very talented and has amazing communication skills. He was recording detailed videos with explanations. That was very helpful for us. I highly recommend Saad for his potential clients. A+++ <br>
+            Thank you, Saad, I wish you all the best."
+          </p>
+          <footer class="text-xs text-foreground/50">
+            — Arni Gali, pulsetto.tech
+          </footer>
+        </blockquote>
+
+        <blockquote class="rounded-lg border border-foreground/10 bg-foreground/[0.03] p-4 text-sm">
+          <p class="mb-3 text-foreground/80">
+            "Saad is awesome! He implemented the design we had on our Shopify store and went above and beyond to find right app solutions and making sure they are customized to our specific needs! <br> Highly recommend him and will be hiring him again!"
+          </p>
+          <footer class="text-xs text-foreground/50">
+            — Yasir, Besto Prints
+          </footer>
+        </blockquote>
+
       </div>
 
     </section>
 
     <Hr />
-    
+
     <!-- FREE AUDIT OFFER -->
     <section id="free-audit" class="pt-12 pb-6">
 
       <h2 class="mb-2 text-2xl font-semibold tracking-wide">
-        Free Shopify Store Audit, For Small Store Owners
+        Free Shopify Store Audit
       </h2>
 
-      <p class="mb-4 max-w-2xl text-sm text-white">
-        Not sure where your store is losing sales? I'll review your store and send you a
-        short, actionable report covering UX, and quick-win fixes no strings attached.
+      <p class="mb-4 max-w-2xl text-sm">
+        Not sure why your store isn't converting? I'll review it and send you a short,
+        actionable report with the exact UX issues and quick wins holding back your sales, no strings attached.
       </p>
 
       <ul class="mb-6 space-y-2 max-w-2xl text-sm">
@@ -104,102 +179,55 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     <Hr />
 
-    <!-- HERO -->
-    <section id="hero" class="pt-8 pb-6">
+    <!-- TECHNICAL RETAINER -->
+    <section id="retainer" class="pt-12 pb-6">
 
-      <h1 class="my-4 inline-block text-3xl font-bold sm:my-8 sm:text-4xl">
-        Solo Shopify Developer
-      </h1>
+      <h2 class="mb-2 text-2xl font-semibold tracking-wide">
+        Technical Retainer for Small Shopify Store Owners
+      </h2>
 
-      <p class="max-w-2xl">
-        I'm <strong>Saad Saif</strong>, a solo Shopify developer specializing in
-        <strong>custom Shopify functionality, theme customization, and store performance optimization</strong>.
-      </p>
-      
-      <p class="mt-4 *:max-w-2xl">
-        When you message me, you directly chat with me, no middleman or non-technical manager between us.
+      <p class="mb-4 max-w-2xl text-sm">
+        Constantly running into small technical issues, tweaks, or feature requests?
+        Instead of hiring an agency or paying per-project rates, get a dedicated Shopify
+        developer on retainer — available every month, ready when you need me.
       </p>
 
-      <p class="mt-4 max-w-2xl">
-        I help Shopify brands and agencies build faster, scalable storefronts by
-        implementing custom features and removing reliance on heavy apps,
-        improving <strong>conversion rate (CRO)</strong> and
-        <strong>average order value (AOV)</strong>.
+      <ul class="mb-4 space-y-2 max-w-2xl text-sm">
+        <li>✓ Up to <strong>8 hours/month</strong> of Shopify development work</li>
+        <li>✓ Theme fixes, custom tweaks, section edits, app integrations</li>
+        <li>✓ Priority WhatsApp access, no ticket system, no agency delays</li>
+        <li>✓ Monthly report of work done & suggestions for the next month</li>
+        <li>✓ Cancel anytime, no long-term contracts</li>
+      </ul>
+
+      <!-- TODO: Replace $XXX with your actual starting price -->
+      <p class="mb-2 max-w-2xl text-sm text-foreground/70">
+        Starting from <strong>$240/month</strong>
       </p>
 
-      <p class="mt-4 max-w-2xl">
-        I also share my Shopify development knowledge through
-        <LinkButton
-          class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="/courses"
-        >
-          courses
-        </LinkButton>,
-        <LinkButton
-          class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="/posts"
-        >
-          blog posts
-        </LinkButton>,
-        and my
-        <LinkButton
-          class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="https://www.youtube.com/@saadsaif97/videos"
-        >
-          YouTube channel
-        </LinkButton>
-        where I teach advanced Shopify development.
+      <p class="mb-6 max-w-2xl text-sm text-accent font-medium">
+        Best for stores doing $5k-$50k/month that need a reliable developer without full-time costs.
       </p>
 
-      <div class="mt-6 flex flex-col gap-4 sm:flex-row">
+      <div class="flex flex-col gap-4 sm:flex-row">
         <a
-          href="https://calendly.com/saadgfx97/shopify-theme-development"
-          target="_blank"
-          rel="noopener"
-          class="inline-block rounded border border-muted px-6 py-3 text-center text-sm font-medium text-white transition"
-        >
-          Get a Free Store Audit
-        </a>
-
-        <a
-          href="https://wa.me/+923314002075?text=Hi Saad, I am interested in your Shopify services"
+          href="https://wa.me/+923314002075?text=Hi Saad, I'm interested in the Technical Retainer for my Shopify store"
           target="_blank"
           rel="noopener"
           class="inline-block rounded bg-green-600 px-6 py-3 text-center text-sm font-medium text-white transition hover:bg-green-700"
         >
-          Chat on WhatsApp
+          Inquire on WhatsApp
+        </a>
+
+        <a
+          href="https://calendly.com/saadgfx97/shopify-theme-development"
+          target="_blank"
+          rel="noopener"
+          class="inline-block rounded border border-muted px-6 py-3 text-center text-sm font-medium text-white transition hover:border-white"
+        >
+          Book a Quick Call
         </a>
       </div>
-
-      {
-        SOCIALS.length > 0 && (
-          <div class="mt-6 flex flex-col sm:flex-row sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
-              Connect with me:
-            </div>
-            <Socials />
-          </div>
-        )
-      }
-
-    </section>
-
-    <Hr />
-
-    <!-- TRUST SECTION -->
-    <section class="pt-12 pb-6">
-
-      <h2 class="mb-6 text-2xl font-semibold tracking-wide">
-        Trusted by Shopify Brands & Developers
-      </h2>
-
-      <ul class="space-y-2 max-w-2xl">
-        <li>• 4+ years of Shopify development experience</li>
-        <li>• Built custom functionality for multiple Shopify stores</li>
-        <li>• 1600+ developers learning from my YouTube tutorials</li>
-        <li>• 4000+ professionals following my Shopify insights on LinkedIn</li>
-        <li>• Specialized in custom Shopify solutions without heavy apps</li>
-      </ul>
 
     </section>
 
