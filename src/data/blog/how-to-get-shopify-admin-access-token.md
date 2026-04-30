@@ -121,3 +121,11 @@ Or in Postman, add a header:
 ---
 
 That's it! You now have a Shopify Admin API access token you can use to automate tasks, sync data, or build integrations. Need help with the next step? Message me on WhatsApp anytime.
+
+---
+
+## Video Tutorial
+
+Watch the step-by-step video tutorial here:
+
+[![Custom Product Labels and Badges in Shopify](https://img.youtube.com/vi/w33aFA0PSgM/maxresdefault.jpg)](https://www.youtube.com/watch?v=w33aFA0PSgM)
