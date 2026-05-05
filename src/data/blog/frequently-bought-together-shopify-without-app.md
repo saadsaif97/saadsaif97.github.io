@@ -225,3 +225,11 @@ Compare that to a generic "customers also viewed" app that shows products based 
 - Flow file: <a href="/Bought%20together.flow" download>Download Bought Together.flow</a>
 
 If you need help implementing this in your store, feel free to reach out. I specialise in custom Shopify development and can get this set up for you quickly.
+
+---
+
+## Video Tutorial
+
+Watch the step-by-step video tutorial here:
+
+[![Custom Product Labels and Badges in Shopify](https://img.youtube.com/vi/1me4qUO_KGE/maxresdefault.jpg)](https://www.youtube.com/watch?v=1me4qUO_KGE)
