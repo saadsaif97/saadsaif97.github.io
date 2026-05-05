@@ -5,13 +5,6 @@ pubDatetime: 2026-05-05T09:00:00Z
 slug: frequently-bought-together-shopify-without-app
 draft: false
 featured: true
-tags:
-  - shopify
-  - cart-drawer
-  - upsell
-  - metafields
-  - shopify-flow
-  - increase-aov
 description: Build a data-driven "Frequently Bought Together" section in your Shopify cart drawer using real order history, product metafields, and Shopify Flow, no third-party app required.
 ---
 
@@ -113,7 +106,7 @@ The script will log its progress as it processes your orders and uploads the met
 
 Once the historical data is in place, you need every new order to update the co-purchase counts. This is handled by the Shopify Flow below.
 
-**[Download the Bought Together Flow file](/Bought together.flow)**
+<a href="/Bought%20together.flow" download>Download the Bought Together Flow file</a>
 
 Import it directly into your Shopify admin under **Marketing → Flows → Import**.
 
@@ -229,6 +222,6 @@ Compare that to a generic "customers also viewed" app that shows products based 
 
 **Resources:**
 - Script: [github.com/saadsaif97/bought_together](https://github.com/saadsaif97/bought_together)
-- Flow file: [Download Bought Together.flow](/Bought together.flow)
+- Flow file: <a href="/Bought%20together.flow" download>Download Bought Together.flow</a>
 
 If you need help implementing this in your store, feel free to reach out. I specialise in custom Shopify development and can get this set up for you quickly.
