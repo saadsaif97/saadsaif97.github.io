@@ -1,0 +1,26 @@
+---
+const YT_ID = "POX7SiOu1Z0";
+const YT_THUMB = `https://img.youtube.com/vi/${YT_ID}/maxresdefault.jpg`;
+const YT_URL = `https://www.youtube.com/watch?v=${YT_ID}`;
+---
+
+<!-- YouTube thumbnail with play button -->
+<a href={YT_URL} target="_blank" rel="noopener noreferrer" class="group relative block">
+  <img
+    src={YT_THUMB}
+    alt="Shopify Wishlist Tutorial | Guest, Logged In & Shareable Wishlist Setup"
+    class="w-full object-cover"
+    loading="lazy"
+  />
+  <!-- Play button overlay -->
+  <div class="absolute inset-0 flex items-center justify-center bg-black/30 transition-colors group-hover:bg-black/40">
+    <div class="flex h-16 w-16 items-center justify-center rounded-full bg-red-600 shadow-lg transition-transform group-hover:scale-110">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7 translate-x-0.5 fill-white" aria-hidden="true">
+        <path d="M8 5v14l11-7z"/>
+      </svg>
+    </div>
+  </div>
+  <div class="absolute top-3 right-3 rounded bg-black/60 px-2 py-1 text-xs font-medium text-white">
+    AD
+  </div>
+</a>
