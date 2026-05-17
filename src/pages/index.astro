@@ -441,7 +441,7 @@ function getImageSrc(ogImage: { src: string } | string | undefined): string | un
                 class="group flex flex-col overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900/50 transition hover:border-zinc-700"
               >
                 {/* Thumbnail */}
-                <div class="h-40 w-full overflow-hidden bg-zinc-800">
+                <div class="aspect-video w-full overflow-hidden bg-zinc-800">
                   {imgSrc ? (
                     <img
                       src={imgSrc}
