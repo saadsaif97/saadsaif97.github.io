@@ -5,6 +5,7 @@ pubDatetime: 2026-05-05T09:00:00Z
 slug: frequently-bought-together-shopify-without-app
 draft: false
 featured: true
+ogImage: ../../assets/images/frequently-bought-together-shopify-without-app.png
 description: Build a data-driven "Frequently Bought Together" section in your Shopify cart drawer using real order history, product metafields, and Shopify Flow, no third-party app required.
 ---
 
