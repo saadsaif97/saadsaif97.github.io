@@ -15,6 +15,7 @@ import { slugifyStr } from "@/utils/slugify";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import EasyWishPromo from "@/components/EasyWishPromo.astro";
+import StickyOfferCard from "@/components/StickyOfferCard.astro";
 
 import { SITE } from "@/config";
 
@@ -178,6 +179,8 @@ const nextPost =
       }
     </div>
   </main>
+  <StickyOfferCard />
+
   <!-- Steps TOC: desktop only, hidden on mobile -->
   <nav
     id="steps-toc"
