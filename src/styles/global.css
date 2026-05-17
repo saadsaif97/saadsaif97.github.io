@@ -13,11 +13,11 @@ html[data-theme="light"] {
 }
 
 html[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60;
-  --border: #ab4b08;
+  --background: #080d08;
+  --foreground: #f0f4f0;
+  --accent: #4ade80;
+  --muted: #152215;
+  --border: #1e3a1e;
 }
 
 @theme inline {
@@ -55,7 +55,7 @@ html[data-theme="dark"] {
 }
 
 @utility max-w-app {
-  @apply max-w-3xl;
+  @apply max-w-6xl;
 }
 
 .active-nav {
