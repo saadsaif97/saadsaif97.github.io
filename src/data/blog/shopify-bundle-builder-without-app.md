@@ -1,18 +1,19 @@
 ---
-title: Shopify Bundle Builder without APP
+title: "Shopify Bundle Builder Without an App: Custom Product Packs Using Metaobjects"
 author: Saad Saif
 pubDatetime: 2026-03-26T05:17:19Z
 slug: shopify-bundle-builder-without-app
 draft: false
 featured: true
+tags: ["shopify", "bundles", "aov", "metaobjects"]
 ogImage: ../../assets/images/Shopify Bundle Builder without APP.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: Create Bundle Builder without app in Shopify (code snippet given).
+description: "Build a fully custom bundle builder in Shopify using metaobjects — no third-party app required. Customers pick products and variants while you eliminate recurring app subscription costs."
 ---
 
-# Shopify Bundle Builder without APP
+# Shopify Bundle Builder Without an App
 
-We will create Bundle Builder in Shopify without APP using metafield and metaobject with a few lines of code.
+We will create a Bundle Builder in Shopify without any app using metaobjects and metafields with a few lines of code.
 
 <figure>
   <img
@@ -1548,3 +1549,7 @@ document.addEventListener('DOMContentLoaded', () => {
 Watch the step-by-step video tutorial here:
 
 [![Shopify Bundle Builder without APP](https://img.youtube.com/vi/vm5PouhM9T0/maxresdefault.jpg)](https://www.youtube.com/watch?v=vm5PouhM9T0)
+
+---
+
+Need a custom bundle builder installed on your store? [View my Shopify services](/services) — I can build and customise this for you.

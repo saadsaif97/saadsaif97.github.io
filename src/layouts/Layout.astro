@@ -31,21 +31,52 @@ const {
 
 const socialImageURL = new URL(ogImage, Astro.url);
 
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: `${title}`,
-  image: `${socialImageURL}`,
-  datePublished: `${pubDatetime?.toISOString()}`,
-  ...(modDatetime && { dateModified: modDatetime.toISOString() }),
-  author: [
-    {
-      "@type": "Person",
-      name: `${author}`,
-      ...(profile && { url: profile }),
-    },
-  ],
-};
+const structuredData = pubDatetime
+  ? {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: title,
+      image: `${socialImageURL}`,
+      datePublished: pubDatetime.toISOString(),
+      ...(modDatetime && { dateModified: modDatetime.toISOString() }),
+      author: [
+        {
+          "@type": "Person",
+          name: author,
+          ...(profile && { url: profile }),
+        },
+      ],
+    }
+  : {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          name: SITE.title,
+          url: SITE.website,
+          description: SITE.desc,
+        },
+        {
+          "@type": "Person",
+          name: SITE.author,
+          url: SITE.profile,
+          jobTitle: "Shopify Theme Developer",
+          knowsAbout: [
+            "Shopify",
+            "Shopify Theme Development",
+            "Conversion Rate Optimisation",
+            "Liquid",
+            "JavaScript",
+            "Shopify Plus",
+          ],
+          sameAs: [
+            "https://www.linkedin.com/in/saadsaif97",
+            "https://github.com/saadsaif97",
+            "https://www.youtube.com/@saadsaif97",
+          ],
+        },
+      ],
+    };
 ---
 
 <!doctype html>

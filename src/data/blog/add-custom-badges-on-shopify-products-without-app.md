@@ -1,19 +1,20 @@
 ---
-title: Add custom badges on Shopify products without app
+title: "Shopify Product Badges Without an App: Custom Text Labels Using Metafields"
 author: Saad Saif
 pubDatetime: 2025-10-06T05:17:19Z
 slug: add-custom-badges-on-shopify-products-without-app
 draft: false
 featured: false
+tags: ["shopify", "metafields", "product-badges"]
 ogImage: ../../assets/images/Add custom badges on Shopify products without app.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: Add custom badges on Shopify products, without app (code snippet given).
+description: "Learn how to add fully customisable text-based product badges to any Shopify theme using metafields—no app required. Free code snippet for the Dawn theme included."
 ---
 
-# Create Custom Product Labels and Badges in Shopify Without Any App
+# Shopify Product Badges Without an App: Custom Text Labels Using Metafields
 
-We will create custom product badges in Shopify without any app using metafield and few lines of code.
-I have implemented this solution on the Shopify DAWN theme, but this solution can be implemented on any theme, we can also modify the design according to the need. If you need help, you can message me anytime on my whatsapp.
+We will create custom product badges in Shopify without any app using metafields and a few lines of code.
+I have implemented this solution on the Shopify Dawn theme, but this solution can be implemented on any theme and the design can be modified as needed. If you need help implementing it, [check out my Shopify services](/services) or message me on WhatsApp.
 
 ---
 

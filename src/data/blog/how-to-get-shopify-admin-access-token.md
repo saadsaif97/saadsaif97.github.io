@@ -1,12 +1,13 @@
 ---
-title: How to Get a Shopify Admin API Access Token
+title: "How to Get a Shopify Admin API Access Token (Step-by-Step)"
 author: Saad Saif
 pubDatetime: 2026-05-01T10:00:00Z
 slug: how-to-get-shopify-admin-access-token
 draft: false
 featured: false
+tags: ["shopify", "api", "shopify-admin"]
 ogImage: ../../assets/images/how-to-get-shopify-admin-access-token.png
-description: Step-by-step guide to generating a Shopify Admin API access token using OAuth, create a custom app, authorize it, and exchange the code for a token using Postman.
+description: "Step-by-step guide to generating a Shopify Admin API access token. Create a custom app, authorise it via OAuth, and exchange the code for a token using Postman."
 ---
 
 # How to Get a Shopify Admin API Access Token

@@ -1,18 +1,19 @@
 ---
-title: Add infinity scroll on shopify collection page
+title: "Infinite Scroll on Shopify Collection Pages — No App, Custom Code"
 author: Saad Saif
 pubDatetime: 2025-09-24T05:17:19Z
 slug: add-infinity-scroll-shopify-collection-page
 draft: false
 featured: false
+tags: ["shopify", "collection-page", "javascript"]
 ogImage: ../../assets/images/Add infinity scroll to shopify collection page.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: Add Infinity scroll in any theme (code snippet given).
+description: "Add infinite scroll to any Shopify theme's collection page without an app. Works with active filters and sorting. Free code snippet for the Dawn theme."
 ---
 
-# Add infinity scroll on shopify collection page
+# Infinite Scroll on Shopify Collection Pages — No App, Custom Code
 
-In this example, we will add infinity scrolling to Shopify DAWN theme, but you can add it any Shopify theme
+In this example, we will add infinite scroll to the Shopify Dawn theme, but the approach works on any Shopify theme.
 
 ---
 

@@ -1,18 +1,19 @@
 ---
-title: How to design custom product labels and badges in Shopify
+title: "Shopify Product Labels with Metaobjects: Advanced Color-Coded Badges, No App"
 author: Saad Saif
 pubDatetime: 2024-11-17T05:17:19Z
 slug: how-to-design-custom-product-labels-and-badges-shopify
 draft: false
 featured: false
+tags: ["shopify", "metaobjects", "product-badges"]
 ogImage: ../../assets/images/Create custom product labels and badges in Shopify without any app.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: Create custom labels and badges without app in Shopify (code snippet given).
+description: "Create advanced colour-coded product labels in Shopify using metaobjects — no app needed. Supports full colour customisation with a colour picker and works on any Shopify theme."
 ---
 
-# Create Custom Product Labels and Badges in Shopify Without Any App
+# Shopify Product Labels with Metaobjects: Advanced Color-Coded Badges, No App
 
-We will create custom product labels and badges in Shopify without any app using metafield and metaobject with a few lines of code.
+We will create custom product labels and badges in Shopify without any app using metaobjects and metafields — giving you full colour control with a colour picker and a few lines of code.
 
 ---
 
@@ -112,3 +113,7 @@ We will create custom product labels and badges in Shopify without any app using
 Watch the step-by-step video tutorial here:
 
 [![Custom Product Labels and Badges in Shopify](https://img.youtube.com/vi/hSl7Y2t_aNM/maxresdefault.jpg)](https://www.youtube.com/watch?v=hSl7Y2t_aNM)
+
+---
+
+Need help setting this up? [View my Shopify services](/services) — I can implement this and other custom features for your store.

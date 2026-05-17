@@ -2,8 +2,8 @@ export const SITE = {
   website: "https://ecomwonk.com", // replace this with your deployed domain
   author: "Saad Saif",
   profile: "https://ecomwonk.com",
-  desc: "Freelance Shopify theme developer and trainer.",
-  title: "EcomWonk",
+  desc: "Hire Saad Saif — a freelance Shopify developer specialising in conversion rate optimisation, custom features without apps, and AOV-boosting solutions. 4+ years, 100+ stores.",
+  title: "EcomWonk | Shopify Developer for Hire – Conversion & AOV Expert",
   ogImage: "expert-shopify-developer.png",
   lightAndDarkMode: false,
   postPerIndex: 4,

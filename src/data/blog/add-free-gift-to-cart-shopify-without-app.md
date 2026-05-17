@@ -1,16 +1,17 @@
 ---
-title: Add FREE GIFT to cart without any app
+title: "Shopify Free Gift With Purchase: Custom Progress Bar, No App Needed"
 author: Saad Saif
 pubDatetime: 2026-03-15T01:00:00Z
 slug: add-free-gift-to-cart-shopify-without-app
 draft: false
 featured: true
+tags: ["shopify", "aov", "cart", "free-gift"]
 ogImage: ../../assets/images/Increase AOV offering FREE GIFT.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: Add FREE GIFT to cart in Shopify without any app (code snippet given).
+description: "Add a free gift to cart in Shopify when customers hit a spending threshold. Includes a live progress bar, custom code, and zero monthly app fees."
 ---
 
-# Add FREE GIFT to cart in Shopify without any app
+# Shopify Free Gift With Purchase: Custom Progress Bar, No App Needed
 
 ## Increase Your Average Order Value with Free Shipping and Free Gifts
 If your store’s average order value (AOV) is $40, you can encourage customers to spend a little more by offering free shipping at $50. Displaying a visual progress bar toward the free shipping threshold motivates customers to increase their order value to unlock the reward.
@@ -19,7 +20,7 @@ Want to boost AOV even further? Offer a free gift when customers reach a slightl
 
 Most of the shopify apps offer free gifts but they do not offer the streamlined user experience, with this solution you can implement directly into your shopify store without monthly recurring shopify app fee.
 
-I’ve implemented this solution in the DAWN theme, and it’s ready to copy and paste into your store. If you’d like help implementing it in your Shopify store, feel free to reach out to me on WhatsApp, I specialize in custom Shopify development and can get it set up for you quickly.
+I’ve implemented this solution in the Dawn theme, and it’s ready to copy and paste into your store. If you’d like help implementing it, [view my Shopify services](/services) — I specialise in custom Shopify development and can get it set up for you quickly.
 
 ---
 

@@ -1,12 +1,13 @@
 ---
-title: "Frequently Bought Together in Shopify Cart Drawer, No App Needed"
+title: "Frequently Bought Together in Shopify Cart Drawer — Data-Driven, No App"
 author: Saad Saif
 pubDatetime: 2026-05-05T09:00:00Z
 slug: frequently-bought-together-shopify-without-app
 draft: false
 featured: true
+tags: ["shopify", "cart", "aov", "shopify-flow", "metafields"]
 ogImage: ../../assets/images/frequently-bought-together-shopify-without-app.png
-description: Build a data-driven "Frequently Bought Together" section in your Shopify cart drawer using real order history, product metafields, and Shopify Flow, no third-party app required.
+description: "Build a data-driven 'Frequently Bought Together' section in your Shopify cart drawer using real order history, product metafields, and Shopify Flow — no third-party app required."
 ---
 
 # Frequently Bought Together in Shopify Cart Drawer, No App Required
@@ -225,7 +226,7 @@ Compare that to a generic "customers also viewed" app that shows products based 
 - Script: [github.com/saadsaif97/bought_together](https://github.com/saadsaif97/bought_together)
 - Flow file: <a href="/Bought%20together.flow" download>Download Bought Together.flow</a>
 
-If you need help implementing this in your store, feel free to reach out. I specialise in custom Shopify development and can get this set up for you quickly.
+If you need help implementing this in your store, [view my Shopify services](/services). I specialise in custom Shopify development and can get this set up for you quickly.
 
 ---
 

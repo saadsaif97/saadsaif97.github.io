@@ -1,13 +1,14 @@
 ---
-title: Shopify Quantity Bundles without app
+title: "Shopify Quantity Bundles Without an App: Tiered Discounts to Boost AOV"
 author: Saad Saif
 pubDatetime: 2026-03-17T05:17:19Z
 slug: create-shopify-quantity-bundles-without-app
 draft: false
 featured: true
+tags: ["shopify", "bundles", "aov"]
 ogImage: ../../assets/images/Shopify Quantity Bundles without app.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: Shopify Quantity Bundles without app (code snippet given).
+description: "Build a 'Buy More, Save More' quantity bundle feature in Shopify without any app. Includes tiered discounts, custom code, and a step-by-step setup guide for the Dawn theme."
 ---
 
 # How to Create Quantity Bundles in Shopify Without an App (Increase AOV)
