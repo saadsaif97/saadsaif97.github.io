@@ -16,14 +16,14 @@ export const GET: APIRoute = async () => {
 
 > Freelance Shopify developer specialising in conversion rate optimisation, AOV features, and custom code that replaces expensive apps.
 
-Saad Saif is a Shopify theme developer with 4+ years of experience across 100+ stores, including 20+ Shopify Plus projects. He builds custom revenue-boosting features — bundle builders, wishlists, frequently bought together, product badges, infinite scroll, and more — without relying on third-party apps. This keeps stores fast, reduces monthly subscription costs, and gives merchants full control over their code.
+Saad Saif is a Shopify theme developer with 4+ years of experience across 100+ stores, including 20+ Shopify Plus projects. He builds custom revenue-boosting features, bundle builders, wishlists, frequently bought together, product badges, infinite scroll, and more, without relying on third-party apps. This keeps stores fast, reduces monthly subscription costs, and gives merchants full control over their code.
 
 ## Services
 
 - [Shopify Development Services](${SITE.website}/services): Conversion rate optimisation, AOV-boosting features (bundles, upsells, free gifts), app replacement development, Shopify Plus (checkout UI extensions, Shopify Functions), and store speed improvements.
-- [Free Shopify Revenue Audit](${SITE.website}/#free-audit): A free personal review of any Shopify store identifying conversion bottlenecks, missed upsell opportunities, speed issues, and app replacement opportunities — delivered as a Loom video audit.
+- [Free Shopify Revenue Audit](${SITE.website}/#free-audit): A free personal review of any Shopify store identifying conversion bottlenecks, missed upsell opportunities, speed issues, and app replacement opportunities, delivered as a Loom video audit.
 
-## Blog Posts — Shopify Development Tutorials
+## Blog Posts, Shopify Development Tutorials
 
 ${postLines}
 

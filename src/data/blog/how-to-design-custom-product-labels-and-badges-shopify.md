@@ -8,12 +8,12 @@ featured: false
 tags: ["shopify", "metaobjects", "product-badges"]
 ogImage: ../../assets/images/Create custom product labels and badges in Shopify without any app.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: "Create advanced colour-coded product labels in Shopify using metaobjects — no app needed. Supports full colour customisation with a colour picker and works on any Shopify theme."
+description: "Create advanced colour-coded product labels in Shopify using metaobjects, no app needed. Supports full colour customisation with a colour picker and works on any Shopify theme."
 ---
 
 # Shopify Product Labels with Metaobjects: Advanced Color-Coded Badges, No App
 
-We will create custom product labels and badges in Shopify without any app using metaobjects and metafields — giving you full colour control with a colour picker and a few lines of code.
+We will create custom product labels and badges in Shopify without any app using metaobjects and metafields, giving you full colour control with a colour picker and a few lines of code.
 
 ---
 
@@ -116,4 +116,4 @@ Watch the step-by-step video tutorial here:
 
 ---
 
-Need help setting this up? [View my Shopify services](/services) — I can implement this and other custom features for your store.
+Need help setting this up? [View my Shopify services](/services), I can implement this and other custom features for your store.

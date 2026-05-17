@@ -8,7 +8,7 @@ featured: true
 tags: ["shopify", "bundles", "aov", "metaobjects"]
 ogImage: ../../assets/images/Shopify Bundle Builder without APP.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: "Build a fully custom bundle builder in Shopify using metaobjects — no third-party app required. Customers pick products and variants while you eliminate recurring app subscription costs."
+description: "Build a fully custom bundle builder in Shopify using metaobjects, no third-party app required. Customers pick products and variants while you eliminate recurring app subscription costs."
 ---
 
 # Shopify Bundle Builder Without an App
@@ -41,7 +41,7 @@ We will create a Bundle Builder in Shopify without any app using metaobjects and
 2. Create a file in assets folder `bundle-builder.css` and paste following content there:
 ```css
 /* ============================================================
-   Bundle Builder — bundle-builder.css
+   Bundle Builder, bundle-builder.css
    ============================================================ */
 
 /* ── Variables ───────────────────────────────────────────── */
@@ -880,7 +880,7 @@ We will create a Bundle Builder in Shopify without any app using metaobjects and
 3. Create a file in assets folder `bundle-builder.js` and paste following content there:
 ```javascript
 /* ============================================================
-   Bundle Builder — bundle-builder.js
+   Bundle Builder, bundle-builder.js
    ============================================================ */
 
 class BundleBuilder {
@@ -1089,7 +1089,7 @@ class BundleBuilder {
     if (!availableVariants.length) return;
 
     if (availableVariants.length === 1 && product.variants.length === 1) {
-      // Single variant — add directly
+      // Single variant, add directly
       const v = availableVariants[0];
       this._addToSlot({
         variantId:    v.id,
@@ -1552,4 +1552,4 @@ Watch the step-by-step video tutorial here:
 
 ---
 
-Need a custom bundle builder installed on your store? [View my Shopify services](/services) — I can build and customise this for you.
+Need a custom bundle builder installed on your store? [View my Shopify services](/services), I can build and customise this for you.

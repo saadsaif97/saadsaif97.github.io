@@ -39,7 +39,7 @@ If you need help implementing this in your store, [visit my services page](/serv
 1. Create section `easy-wish.liquid` and add following code there:
 ```liquid
 {% comment %}
-  EasyWish — Section Rendering API templates
+  EasyWish, Section Rendering API templates
   ==========================================
   This section is NOT placed on pages via {% section %}.
   It is fetched exclusively via the Section Rendering API:
@@ -53,7 +53,7 @@ If you need help implementing this in your store, [visit my services page](/serv
 {%- if product -%}
 
   {%- comment -%} ============================================================
-    STRUCTURE 1 — DRAWER ITEM CARD
+    STRUCTURE 1, DRAWER ITEM CARD
     Rendered when a product handle is known. Fetched per-product when the
     wishlist drawer opens. Uses Shopify Liquid for correct money formatting,
     image URLs (CDN + srcset), translation strings, and live availability.
@@ -147,7 +147,7 @@ If you need help implementing this in your store, [visit my services page](/serv
 {%- elsif request.path == '/search' or request.path == '/' -%}
 
   {%- comment -%} ============================================================
-    STRUCTURE 2 — EMPTY STATE
+    STRUCTURE 2, EMPTY STATE
     Fetched via /?sections=easy-wish when wishlist has no items.
     Kept in Liquid so copy/icon can be themed or translated.
   ============================================================ {%- endcomment -%}
@@ -172,14 +172,14 @@ If you need help implementing this in your store, [visit my services page](/serv
 2. Create snippet `easy-wish.liquid` and add following code there:
 ```liquid
 {% comment %}
-  EasyWish — Wishlist for Shopify 1.0 & 2.0
+  EasyWish, Wishlist for Shopify 1.0 & 2.0
   ==========================================
   Usage: Add {% render 'easy-wish' %} just before </body> in theme.liquid
 
   Assets:
-    assets/easy-wish.css  — all styles
-    assets/easy-wish.js   — web components + injection logic
-    sections/easy-wish.liquid — HTML templates (Section Rendering API)
+    assets/easy-wish.css , all styles
+    assets/easy-wish.js  , web components + injection logic
+    sections/easy-wish.liquid, HTML templates (Section Rendering API)
 
   Theme settings: see the "EasyWish" group in config/settings_schema.json
 {% endcomment %}
@@ -187,7 +187,7 @@ If you need help implementing this in your store, [visit my services page](/serv
 {{ 'easy-wish.css' | asset_url | stylesheet_tag }}
 
 {%- comment -%}
-  Inline config — Liquid renders theme settings into a plain JS object.
+  Inline config, Liquid renders theme settings into a plain JS object.
   This runs before easy-wish.js (which is deferred) so EasyWishConfig
   is always defined when the script initialises.
 {%- endcomment -%}
@@ -218,7 +218,7 @@ If you need help implementing this in your store, [visit my services page](/serv
 <script src="{{ 'easy-wish.js' | asset_url }}" defer></script>
 
 {%- comment -%}
-  Drawer shell — server-rendered so the panel exists in the DOM immediately
+  Drawer shell, server-rendered so the panel exists in the DOM immediately
   (no layout shift). The <easy-wish-drawer> web component wires event
   listeners in connectedCallback. Product cards inside are loaded on demand
   via the Section Rendering API (sections/easy-wish.liquid).
@@ -335,17 +335,17 @@ If you need help implementing this in your store, [visit my services page](/serv
   /* ================================================================
      WEB COMPONENT: <easy-wish-button>
      Attributes:
-       product-key          — unique key (handle preferred)
-       product-id           — numeric Shopify product ID
-       product-handle       — product handle
-       product-title        — product title
-       product-image        — featured image URL
-       product-price        — price in cents
-       product-compare-price — compare-at price in cents
-       product-url          — /products/handle
-       variant-id           — default variant ID
-       variant-title        — default variant title
-       pdp                  — "true" for PDP full-width style
+       product-key         , unique key (handle preferred)
+       product-id          , numeric Shopify product ID
+       product-handle      , product handle
+       product-title       , product title
+       product-image       , featured image URL
+       product-price       , price in cents
+       product-compare-price, compare-at price in cents
+       product-url         , /products/handle
+       variant-id          , default variant ID
+       variant-title       , default variant title
+       pdp                 , "true" for PDP full-width style
   ================================================================ */
   class EasyWishButton extends HTMLElement {
     connectedCallback() {
@@ -445,12 +445,12 @@ If you need help implementing this in your store, [visit my services page](/serv
      WEB COMPONENT: <easy-wish-drawer>
      Slide-out panel. Shell HTML is Liquid-rendered by the snippet.
      Product item cards are fetched via Section Rendering API
-     (/products/{handle}?sections=easy-wish) — all formatting,
+     (/products/{handle}?sections=easy-wish), all formatting,
      images, prices, and translations come from Shopify Liquid.
   ================================================================ */
   class EasyWishDrawer extends HTMLElement {
     connectedCallback() {
-      // HTML is already server-rendered — just cache the list and wire events
+      // HTML is already server-rendered, just cache the list and wire events
       this._list = this.querySelector('.ew-items-list');
       this._shareBtn = this.querySelector('.ew-share-btn');
       this.querySelector('.ew-overlay').addEventListener('click', this._close.bind(this));
@@ -613,7 +613,7 @@ If you need help implementing this in your store, [visit my services page](/serv
         var data = await res.json();
         if (!data['easy-wish']) return null;
 
-        // DOMParser is safe — <script> tags in section responses never execute
+        // DOMParser is safe, <script> tags in section responses never execute
         var doc  = new DOMParser().parseFromString(data['easy-wish'], 'text/html');
         var node = doc.querySelector('.ew-item');
         if (node) { cache[handle] = node; return node.cloneNode(true); }
@@ -781,7 +781,7 @@ If you need help implementing this in your store, [visit my services page](/serv
     if (!EW.pdpEnabled) return;
     if (document.querySelector('.ew-pdp-injected')) return;
 
-    // Resolve product data — try multiple sources for 1.0 + 2.0 compatibility
+    // Resolve product data, try multiple sources for 1.0 + 2.0 compatibility
     var productData = null;
 
     if (window.ShopifyAnalytics?.meta?.product) {
@@ -933,7 +933,7 @@ If you need help implementing this in your store, [visit my services page](/serv
 ```
 4. Create asset `easy-wish.css` and add following code there:
 ```css
-/* ===== EasyWish — Core Variables ===== */
+/* ===== EasyWish, Core Variables ===== */
 :root {
   --ew-color-active:  #e53e3e;
   --ew-color-icon:    #121212;

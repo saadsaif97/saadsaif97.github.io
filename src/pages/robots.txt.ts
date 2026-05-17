@@ -4,7 +4,7 @@ const getRobotsTxt = (sitemapURL: URL) => `
 User-agent: *
 Allow: /
 
-# AI search crawlers — explicitly allowed
+# AI search crawlers, explicitly allowed
 User-agent: GPTBot
 Allow: /
 

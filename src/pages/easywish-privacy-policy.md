@@ -14,7 +14,7 @@ description: "Privacy Policy for EasyWish, a Shopify wishlist app by EcomWonk."
 
 ## 1. Overview
 
-EasyWish is a Shopify app that enables wishlist functionality on your store. This Privacy Policy explains what data EasyWish collects, how it is used, and how it is protected — for both merchants who install the app and their customers.
+EasyWish is a Shopify app that enables wishlist functionality on your store. This Privacy Policy explains what data EasyWish collects, how it is used, and how it is protected, for both merchants who install the app and their customers.
 
 ---
 
@@ -45,7 +45,7 @@ Wishlist data for guests is stored entirely in the customer's own browser (local
 
 ### Analytics
 
-We collect aggregated, anonymised analytics at the store level — for example, how many times a product was added to wishlists across all customers. This data contains no personally identifiable information (PII) and is automatically deleted after 90 days.
+We collect aggregated, anonymised analytics at the store level, for example, how many times a product was added to wishlists across all customers. This data contains no personally identifiable information (PII) and is automatically deleted after 90 days.
 
 ---
 
@@ -65,7 +65,7 @@ We do not use customer data for advertising, profiling, or any purpose beyond op
 
 ## 4. Data Storage & Retention
 
-- Customer wishlist data is stored in Shopify metafields — directly within your Shopify store. We do not copy this data to an external database.
+- Customer wishlist data is stored in Shopify metafields, directly within your Shopify store. We do not copy this data to an external database.
 - Merchant session data is stored in a secure database and is deleted when the app is uninstalled.
 - Aggregated analytics are stored in Shopify metafields with automatic 90-day rolling deletion.
 - Guest wishlist data is stored in the customer's browser only and is never transmitted to our servers.
@@ -90,14 +90,14 @@ Customers choose whether to share their wishlist. Sharing is entirely optional.
 
 ---
 
-## 7. GDPR — Rights of EU Customers
+## 7. GDPR, Rights of EU Customers
 
 If you or your customers are based in the European Union, the following rights apply under GDPR:
 
-- **Right to access** — Customers can request a copy of their wishlist data
-- **Right to erasure** — Customers can request deletion of their wishlist data
-- **Right to portability** — Customers can request their wishlist data in a portable format
-- **Right to object** — Customers can object to processing of their data
+- **Right to access**, Customers can request a copy of their wishlist data
+- **Right to erasure**, Customers can request deletion of their wishlist data
+- **Right to portability**, Customers can request their wishlist data in a portable format
+- **Right to object**, Customers can object to processing of their data
 
 To exercise any of these rights, contact us at [saadgfx97@gmail.com](mailto:saadgfx97@gmail.com). We will respond within 30 days.
 
@@ -116,7 +116,7 @@ Merchants can also delete a specific customer's wishlist at any time by removing
 
 ## 9. Cookies & Browser Storage
 
-EasyWish does not use cookies. For guest customers, wishlist data is stored in localStorage — a browser-based storage mechanism that does not track users across sites and is not accessible by third parties.
+EasyWish does not use cookies. For guest customers, wishlist data is stored in localStorage, a browser-based storage mechanism that does not track users across sites and is not accessible by third parties.
 
 ---
 

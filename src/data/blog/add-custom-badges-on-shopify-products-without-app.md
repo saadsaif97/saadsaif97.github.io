@@ -8,7 +8,7 @@ featured: false
 tags: ["shopify", "metafields", "product-badges"]
 ogImage: ../../assets/images/Add custom badges on Shopify products without app.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: "Learn how to add fully customisable text-based product badges to any Shopify theme using metafields—no app required. Free code snippet for the Dawn theme included."
+description: "Learn how to add fully customisable text-based product badges to any Shopify theme using metafieldsno app required. Free code snippet for the Dawn theme included."
 ---
 
 # Shopify Product Badges Without an App: Custom Text Labels Using Metafields
