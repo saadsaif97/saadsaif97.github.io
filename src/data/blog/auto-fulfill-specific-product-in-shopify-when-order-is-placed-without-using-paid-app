@@ -240,6 +240,8 @@ Send Admin API Request
 Mark Fulfillment Order as Fulfilled
 ```
 
+- Flow file: <a href="/AutoFulFill.flow" download>Download AutoFulFill.flow</a>
+
 ---
 
 ## Customizations
