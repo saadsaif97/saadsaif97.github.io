@@ -8,7 +8,7 @@ draft: false
 featured: false
 tags: ["shopify", "shopify-flow", "automation", "fulfillment"]
 description: "Automatically fulfill a specific product in Shopify orders using Shopify Flow and Admin API. No paid app required."
----------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Auto Fulfill a Specific Shopify Product Using Shopify Flow (No Paid App)
 
