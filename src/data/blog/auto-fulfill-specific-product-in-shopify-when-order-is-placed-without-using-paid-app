@@ -1,0 +1,306 @@
+---
+
+title: "Auto Fulfill a Specific Shopify Product Using Shopify Flow (No Paid App)"
+author: Saad Saif
+pubDatetime: 2026-05-29T05:17:19Z
+slug: auto-fulfill-specific-shopify-product-flow
+draft: false
+featured: false
+tags: ["shopify", "shopify-flow", "automation", "fulfillment"]
+description: "Automatically fulfill a specific product in Shopify orders using Shopify Flow and Admin API. No paid app required."
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Auto Fulfill a Specific Shopify Product Using Shopify Flow (No Paid App)
+
+Many Shopify merchants sell a mix of physical and digital products, samples, warranty products, freebies, or items that don't require manual fulfillment.
+
+Instead of manually fulfilling those products every time an order is placed, you can automate the process using Shopify Flow and the Shopify Admin API.
+
+In this tutorial, I'll show you how to automatically fulfill a specific item whenever an order is created—without installing any paid app.
+
+---
+
+## What This Automation Does
+
+When a new order is created:
+
+1. Shopify Flow checks all fulfillment orders.
+2. It searches for a specific SKU.
+3. If the SKU exists in the order:
+
+   * The fulfillment order ID is captured.
+   * The line item ID is captured.
+   * The quantity is captured.
+4. Shopify automatically creates a fulfillment for that item.
+
+This is useful for:
+
+* Digital products
+* Warranty products
+* Free samples
+* Subscription welcome kits
+* Products fulfilled by external systems
+* Any item that doesn't require manual processing
+
+---
+
+## Requirements
+
+Before starting, make sure:
+
+* Shopify Flow is installed.
+* Your store is on a plan that supports Shopify Flow.
+* The target product has a unique SKU.
+
+For this tutorial we'll use:
+
+```javascript
+const TARGET_SKU = "FULL";
+```
+
+Replace `FULL` with the SKU you want to automatically fulfill.
+
+---
+
+## Step 1: Create a New Shopify Flow Workflow
+
+Create a new workflow and select:
+
+**Trigger**
+
+```text
+Order Created
+```
+
+This workflow will run every time a new order is placed.
+
+---
+
+## Step 2: Add a Run Code Action
+
+Add a **Run Code** step.
+
+### Input Query
+
+```graphql
+query{
+  order {
+    fulfillmentOrders {
+      id
+      status
+      lineItems {
+        id
+        totalQuantity
+        sku
+      }
+    }
+  }
+}
+```
+
+This query fetches:
+
+* Fulfillment Orders
+* Line Item IDs
+* Quantities
+* SKUs
+
+from the newly created order.
+
+---
+
+## Step 3: Add the JavaScript Logic
+
+Paste the following code inside the Run Code action:
+
+```javascript
+export default function main(input) {
+  const TARGET_SKU = "FULL";
+
+  let fulfillmentOrderId = "";
+  let lineItemId = "";
+  let quantity = 0;
+  let shouldFulfill = false;
+
+  const fulfillmentOrders = input.order?.fulfillmentOrders || [];
+
+  for (const fo of fulfillmentOrders) {
+    const lineItems = fo.lineItems || [];
+
+    for (const item of lineItems) {
+      if (item.sku === TARGET_SKU) {
+        fulfillmentOrderId = fo.id;
+        lineItemId = item.id;
+        quantity = item.totalQuantity;
+        shouldFulfill = true;
+        break;
+      }
+    }
+
+    if (shouldFulfill) break;
+  }
+
+  return {
+    shouldFulfill,
+    fulfillmentOrderId,
+    lineItemId,
+    quantity
+  };
+}
+```
+
+### What This Code Does
+
+The script loops through all fulfillment orders and their line items.
+
+When it finds a line item with the target SKU:
+
+* Stores the fulfillment order ID
+* Stores the line item ID
+* Stores the quantity
+* Returns the information for the next workflow steps
+
+---
+
+## Step 4: Add a Condition
+
+Add a condition after the Run Code step:
+
+```text
+runCode.shouldFulfill == true
+```
+
+This ensures the workflow only continues when the target SKU is found.
+
+---
+
+## Step 5: Create the Fulfillment via Admin API
+
+Inside the **True** branch, add a **Send Admin API Request** action.
+
+Use the following mutation:
+
+```json
+{
+  "fulfillment": {
+    "notifyCustomer": false,
+    "lineItemsByFulfillmentOrder": [
+      {
+        "fulfillmentOrderId": "{{runCode.fulfillmentOrderId}}",
+        "fulfillmentOrderLineItems": [
+          {
+            "id": "{{runCode.lineItemId}}",
+            "quantity": {{runCode.quantity}}
+          }
+        ]
+      }
+    ]
+  },
+  "message": "auto fulfilled"
+}
+```
+
+This creates the fulfillment for only the matching product.
+
+---
+
+## Step 6: Mark the Fulfillment as Fulfilled
+
+After the Admin API request, add:
+
+```text
+Mark Fulfillment Order as Fulfilled
+```
+
+Use:
+
+```text
+{{sendAdminApiRequest.fulfillment.id}}
+```
+
+as the fulfillment order ID.
+
+Disable customer notifications if desired.
+
+---
+
+## Workflow Structure
+
+```text
+Order Created
+    ↓
+Run Code
+    ↓
+Condition (SKU Found?)
+    ↓
+Yes
+    ↓
+Send Admin API Request
+    ↓
+Mark Fulfillment Order as Fulfilled
+```
+
+---
+
+## Customizations
+
+### Fulfill Multiple Products
+
+Instead of checking a single SKU:
+
+```javascript
+const TARGET_SKUS = ["FULL", "DIGITAL", "SAMPLE"];
+```
+
+Use:
+
+```javascript
+if (TARGET_SKUS.includes(item.sku))
+```
+
+---
+
+### Fulfill Based on Product Type
+
+You can query additional product data and automate based on:
+
+* Product Type
+* Vendor
+* Tags
+* Metafields
+
+---
+
+### Notify Customers
+
+To send fulfillment emails:
+
+```json
+"notifyCustomer": true
+```
+
+---
+
+## Benefits of This Approach
+
+✅ No paid apps
+
+✅ Fully automated
+
+✅ Uses native Shopify Flow
+
+✅ Works with Shopify Admin API
+
+✅ Easy to customize
+
+✅ Reduces manual fulfillment work
+
+---
+
+## Final Thoughts
+
+Shopify Flow is one of the most underrated tools available to Shopify merchants and developers.
+
+With a few lines of JavaScript and a simple Admin API call, you can automatically fulfill specific products whenever an order is placed, saving time and eliminating repetitive manual work.
+
+If you're already using Shopify Flow, this automation can be implemented in just a few minutes and can easily be extended to support more complex fulfillment logic.
