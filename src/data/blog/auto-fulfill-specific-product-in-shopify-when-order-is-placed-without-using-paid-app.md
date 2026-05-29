@@ -1,7 +1,7 @@
 ---
 title: "Auto Fulfill a Specific Shopify Product Using Shopify Flow (No Paid App)"
 author: Saad Saif
-pubDatetime: 2026-05-2810:00:00 UTC
+pubDatetime: 2026-05-28T10:00:00Z
 slug: auto-fulfill-specific-shopify-product-flow
 draft: false
 featured: false
