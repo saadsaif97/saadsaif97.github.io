@@ -127,7 +127,7 @@ export default async () => {
       height: 630,
       embedFont: true,
       fonts: await loadGoogleFonts(
-        "The Most Comprehensive Shopify Development Training Learn with AI Themes Figma to Plus apps Functions Flow debugging Launch Price 47 Reserve your seat now flex"
+        "The Most Comprehensive Shopify Development Training Learn with AI Themes, Figma to Shopify Plus apps, Functions, Flow & debugging Launch Price $47 Reserve your seat now ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 .,&$'-"
       ),
     }
   );
