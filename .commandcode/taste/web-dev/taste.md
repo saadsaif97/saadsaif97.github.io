@@ -7,6 +7,7 @@
 - Prefers reusing existing site content and components (testimonials, existing promo components, Header/Footer/Hr/Layout) rather than writing new content or duplicating patterns. Confidence: 0.8
 - Prefers new pages to use a dedicated URL path (e.g. `/shopify-ai-training`) and to be linked from the header nav and existing courses/related pages. Confidence: 0.7
 - Wants landing pages to include embedded video (e.g. a Loom intro) using responsive 16:9 iframes placed high on the page (near the hero) to support conversion. Confidence: 0.6
+- Prefers no em dashes (—) in written page copy; replace them with commas or light rewording. Confidence: 0.9
 
 ## E-commerce / Course Enrollment
 - Payment/enrollment details should be embedded directly in the landing page (Payoneer email for international, local bank transfer details with IBAN for Pakistani customers, plus WhatsApp screenshot confirmation flow). Confidence: 0.9

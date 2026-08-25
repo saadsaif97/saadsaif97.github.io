@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Shell(pnpm:*)"
+      "Shell(pnpm:*)",
+      "Shell(grep -rl \"Need Help with Shopify\" dist/ 2>/dev/null; echo \"exit: $?\"; grep -rl \"Shopify Development Training with AI\" dist/ 2>/dev/null | head)"
     ],
     "deny": [],
     "defaultMode": "default"
