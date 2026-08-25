@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Shell(pnpm:*)",
-      "Shell(grep -rl \"Need Help with Shopify\" dist/ 2>/dev/null; echo \"exit: $?\"; grep -rl \"Shopify Development Training with AI\" dist/ 2>/dev/null | head)"
+      "Shell(grep -rl \"Need Help with Shopify\" dist/ 2>/dev/null; echo \"exit: $?\"; grep -rl \"Shopify Development Training with AI\" dist/ 2>/dev/null | head)",
+      "Shell(grep:*)",
+      "Shell(echo:*)",
+      "Shell(md5:*)",
+      "Shell(grep -rn \"generateOgImageForTraining\\|trainingOgImage\" src/ 2>/dev/null; echo \"grep exit: $?\"; echo \"=== build check ===\"; npx astro check 2>&1 | tail -3)"
     ],
     "deny": [],
     "defaultMode": "default"
