@@ -9,6 +9,9 @@
 - Wants landing pages to include embedded video (e.g. a Loom intro) using responsive 16:9 iframes placed high on the page (near the hero) to support conversion. Confidence: 0.6
 - Prefers no em dashes (—) in written page copy; replace them with commas or light rewording. Confidence: 0.9
 
+## SEO / Social
+- Wants each promo/landing page to have its own custom OG/social share image (not the site default), generated via the site's existing satori SVG→PNG endpoint pattern and wired through the `ogImage` prop. Confidence: 0.8
+
 ## E-commerce / Course Enrollment
 - Payment/enrollment details should be embedded directly in the landing page (Payoneer email for international, local bank transfer details with IBAN for Pakistani customers, plus WhatsApp screenshot confirmation flow). Confidence: 0.9
 - Builds promo/course landing pages as established site pattern (site already has EasyWishPromo, Page2FigmaPromo, StickyOfferCard). Confidence: 0.8
