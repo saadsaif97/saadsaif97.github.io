@@ -1,0 +1,597 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Hr from "@/components/Hr.astro";
+import { SITE } from "@/config";
+
+const title =
+  "Shopify Development Training with AI | Most Comprehensive Course";
+const description =
+  "The most comprehensive Shopify development training you'll ever find. Learn theme development, Figma to Shopify, Plus apps, functions, and debugging — all accelerated with AI. Starting at $47.";
+
+const titleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  name: "Shopify Development Training with AI",
+  description:
+    "The most comprehensive Shopify development training. Theme development, Liquid, Figma to Shopify, app development, Shopify Functions, Plus extensions, Flow automation, client hunting, and debugging — all with AI.",
+  provider: {
+    "@type": "Person",
+    name: "Saad Saif",
+    url: SITE.website,
+  },
+  offers: {
+    "@type": "Offer",
+    price: "47",
+    priceCurrency: "USD",
+    availability: "https://schema.org/PreOrder",
+  },
+  hasCourseInstance: {
+    "@type": "CourseInstance",
+    courseMode: "Online",
+    courseWorkload: "PT8H",
+  },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What are the prerequisites for this Shopify training?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "You just need to know basic HTML, CSS, and JavaScript. Everything else about Shopify theme development, Liquid, app development, and debugging is taught from scratch.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does the training cost?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The training starts at $47 USD. International students can pay via Payoneer at saadgfx97@gmail.com. Students in Pakistan can pay 10,000 PKR via bank transfer (IBAN PK74NBPA0401004518262263, EcomWonk, National Bank of Pakistan).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I reserve my seat?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Complete the payment using Payoneer or bank transfer, then send a screenshot of the payment to WhatsApp at +923037338357 to reserve your seat.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Will the price go up?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. The training is currently in production at the launch price of $47. Once the training is completed, the price may increase.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is the training taught with AI?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. The entire course shows how to use AI throughout the Shopify development workflow, from theme building and Figma to Shopify conversion to app development and debugging — while also teaching the core foundations without AI.",
+      },
+    },
+  ],
+};
+
+const PAYONEER_EMAIL = "saadgfx97@gmail.com";
+const WHATSAPP_NUMBER = "+923037338357";
+const WHATSAPP_LINK = `https://wa.me/923037338357?text=${encodeURIComponent(
+  "Hi Saad! I've completed the payment for the Shopify Development Training with AI. Here is my payment screenshot and I'd like to reserve my seat."
+)}`;
+
+const PAYMENT_URL = `mailto:${PAYONEER_EMAIL}?subject=${encodeURIComponent(
+  "Shopify Development Training with AI - Payment"
+)}&body=${encodeURIComponent(
+  "Hi Saad,\n\nI'd like to enroll in the Shopify Development Training with AI. I'll send my Payoneer payment now.\n\nThanks!"
+)}`;
+
+const heroItem_01 = "100% AI-Accelerated Development";
+const heroItem_02 = "From Zero to Shopify Plus Ready";
+const heroItem_03 = "Real Projects, Real Scenarios";
+const heroItem_04 = "Build Skills for Client Work";
+
+const modules = [
+  {
+    number: "01",
+    title: "Foundations & Store Setup",
+    items: [
+      "HTML, CSS & JavaScript prerequisites brushed up",
+      "Shopify admin panel, products, collections & customers",
+      "Unlimited free dev stores with Shopify Partners",
+    ],
+  },
+  {
+    number: "02",
+    title: "Theme Development with AI",
+    items: [
+      "Shopify CLI + Git + GitHub local setup",
+      "Theme architecture: sections, blocks, layout, snippets",
+      "Liquid programming language from scratch",
+      "Section Rendering API & Cart API",
+      "Metafields & Metaobjects",
+      "Build a full Shopify theme from a blank folder",
+    ],
+  },
+  {
+    number: "03",
+    title: "Figma to Shopify with AI",
+    items: [
+      "My favorite topic — best practices to convert Figma designs into Shopify code using AI",
+      "We'll compare AI-driven conversion vs. the traditional manual way",
+    ],
+  },
+  {
+    number: "04",
+    title: "App Development with AI",
+    items: [
+      "Checkout UI extensions & admin extensions",
+      "Shopify Functions (for Shopify Plus stores)",
+      "Custom apps with Shopify API & access tokens",
+      "Custom servers for custom apps",
+      "Deploy a public app to a live store",
+    ],
+  },
+  {
+    number: "05",
+    title: "Shopify Flow Automation",
+    items: [
+      "Real-world automations built live",
+      "Understand what modern agencies ship with Flow",
+    ],
+  },
+  {
+    number: "06",
+    title: "Client Work & Debugging",
+    items: [
+      "Client hunting techniques — what actually works",
+      "Submit your problem, and I'll solve it in a live video",
+      "Bug & glitch fixing on your real store",
+      "Debug with AI, plus solid foundations to debug without it",
+    ],
+  },
+];
+
+const benefits = [
+  {
+    title: "Learn Shopify Plus skills",
+    description:
+      "Checkout extensions, admin extensions, and Shopify Functions open the door to high-paying Shopify Plus work.",
+  },
+  {
+    title: "AI speeds you up",
+    description:
+      "You'll see exactly how AI accelerates building and debugging — while still mastering the fundamentals that keep you confident.",
+  },
+  {
+    title: "Real-world, not theory",
+    description:
+      "Every module uses real stores, real bugs, and real client scenarios so you know what modern agencies actually do.",
+  },
+  {
+    title: "Personal problems solved live",
+    description:
+      "Recommend your problem, bug, or glitch and I'll solve it on camera so you — and the whole community — learn from it.",
+  },
+];
+
+const testimonials = [
+  {
+    quote:
+      "I have been providing Shopify Store Designing services since 2020, focusing mainly on theme customization without any custom coding work. During the training, I learned about various aspects of Shopify, including theme files, sections, variants, checkout, and my personal favorite: debugging. Saad Bhai's teaching style is very professional, clear, and easy to follow. The practical, hands-on approach made learning much more effective.",
+    name: "Hafiz Roman",
+    role: "Shopify Store Designer",
+  },
+  {
+    quote:
+      "Saad's Shopify Theme Development course is a fantastic opportunity to fast-track your career as a Shopify theme developer. With just a basic understanding of HTML, CSS, and JavaScript, you'll dive into a hands-on, project-based learning experience building real, functional components of a Shopify theme from the ground up. I recommend this course to beginners and experienced developers alike.",
+    name: "Adnan Afsari",
+    role: "Student",
+  },
+  {
+    quote:
+      "Before this training, I knew little about Shopify theme development. I learned how themes work, customize them, and use Liquid effectively. Sir Saad's clear and practical teaching style made learning easy and applicable to real projects.",
+    name: "Anees",
+    role: "Student",
+  },
+];
+
+const faqs = [
+  {
+    question: "Do I need to know Shopify before joining?",
+    answer:
+      "No. You only need basic HTML, CSS, and JavaScript. We start with the Shopify admin panel and build everything from scratch, including a complete theme from a blank folder.",
+  },
+  {
+    question: "What payment methods do you accept?",
+    answer:
+      "International students can pay $47 USD via Payoneer to saadgfx97@gmail.com. Students in Pakistan pay 10,000 PKR via bank transfer to EcomWonk, National Bank of Pakistan, IBAN PK74NBPA0401004518262263.",
+  },
+  {
+    question: "How do I confirm my seat after paying?",
+    answer:
+      "After completing the payment, send the screenshot to WhatsApp at +923037338357 and I'll reserve your seat for you.",
+  },
+  {
+    question: "Will the price increase later?",
+    answer:
+      "Yes. The training is currently in production and available at the launch price of $47. Once the training is completed, the price may go up, so pre-registering now locks in the best rate.",
+  },
+  {
+    question: "Do I need a Shopify Plus store?",
+    answer:
+      "No. You'll set up unlimited free development stores using the Shopify Partners account, which requires no paid plan. The Shopify Plus extensions (checkout, admin, functions) are covered so you're ready for Plus client work.",
+  },
+  {
+    question: "Is this course taught with AI?",
+    answer:
+      "Yes, throughout. You'll learn to build themes, convert Figma designs, develop apps, and debug — all with AI as your accelerator. I also teach debugging techniques without AI so you have clear, solid foundations.",
+  },
+];
+
+const steps = [
+  {
+    step: "1",
+    title: "Choose your payment method",
+    description:
+      "International: send $47 USD via Payoneer to saadgfx97@gmail.com. In Pakistan: send 10,000 PKR via bank transfer to EcomWonk (National Bank of Pakistan).",
+  },
+  {
+    step: "2",
+    title: "Complete the payment",
+    description:
+      "Use the email above for Payoneer, or the bank details above for the PKR transfer.",
+  },
+  {
+    step: "3",
+    title: "Send the screenshot on WhatsApp",
+    description:
+      "Message the payment screenshot to +923037338357 to reserve your seat. It's that simple.",
+  },
+];
+---
+
+<Layout title={title} description={description}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(titleSchema)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqSchema)} />
+
+  <Header />
+
+  <main id="main-content">
+    {/* ----- HERO ----- */}
+    <section id="hero" class="pt-12 pb-6 text-center sm:pt-20">
+      <p class="text-sm font-semibold tracking-wide text-accent uppercase">
+        The Most Comprehensive Shopify Development Training
+      </p>
+
+      <h1 class="my-4 inline-block text-3xl font-bold sm:text-4xl">
+        Learn Shopify Development with AI. From Zero to Shopify Plus Ready.
+      </h1>
+
+      <p class="mx-auto mb-2 max-w-2xl">
+        Build themes, convert Figma designs, develop apps, and debug with
+        confidence — every module accelerated with AI and built on real-world
+        scenarios.
+      </p>
+
+      <div class="mx-auto mt-8 max-w-xl rounded-xl border border-border bg-muted/40 p-6">
+        <p class="text-sm font-semibold uppercase tracking-wide text-foreground/60">
+          Launch price
+        </p>
+        <p class="my-2 text-5xl font-extrabold text-accent">$47</p>
+        <p class="mb-1 text-sm text-foreground/60">
+          One-time payment. No monthly fees.
+        </p>
+        <p class="mb-4 text-xs text-foreground/50">
+          Price may increase once the training is completed. Reserve your seat
+          now.
+        </p>
+        <a
+          href={PAYMENT_URL}
+          class="inline-block w-full rounded bg-accent px-6 py-3 text-sm font-semibold text-background transition hover:opacity-90"
+        >
+          Reserve My Seat
+        </a>
+        <p class="mt-3 text-xs text-foreground/50">
+          Pay with Payoneer or local bank transfer. Details below.
+        </p>
+      </div>
+
+      <ul class="mx-auto mt-8 grid max-w-3xl grid-cols-1 gap-2 sm:grid-cols-2">
+        {
+          [heroItem_01, heroItem_02, heroItem_03, heroItem_04].map(item => (
+            <li class="flex items-center gap-2 text-sm">
+              <span class="text-accent">✓</span>
+              {item}
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <Hr />
+
+    {/* ----- VIDEO INTRO ----- */}
+    <section id="watch" class="pt-12 pb-6 text-center">
+      <p class="mb-2 text-sm font-semibold tracking-wide text-accent uppercase">
+        Watch the Introduction
+      </p>
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">
+        See what's inside the training.
+      </h2>
+
+      <div class="mx-auto max-w-3xl overflow-hidden rounded-xl border border-border shadow-sm">
+        <iframe
+          src="https://www.loom.com/embed/c6e19d6b074b4d53aadb8d167eba6fe9"
+          allowfullscreen
+          style="width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0;"
+          title="Shopify Development Training with AI — Introduction"
+        ></iframe>
+      </div>
+    </section>
+
+    <Hr />
+
+    {/* ----- PROBLEM / WHY ----- */}
+    <section id="why" class="pt-12 pb-6">
+      <p class="mb-2 text-sm font-semibold tracking-wide text-accent uppercase">
+        Why This Training
+      </p>
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">
+        Most courses teach theory. This trains you for real client work.
+      </h2>
+
+      <p class="mb-4 max-w-2xl">
+        We don't stop at themes. We cover the entire Shopify ecosystem: Plus
+        extensions, Shopify Functions, custom apps, public app deployment, Flow
+        automation, and client hunting. By the end, you'll be ready to work for
+        modern agencies and Shopify Plus stores.
+      </p>
+
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+        {
+          benefits.map(({ title, description }) => (
+            <div class="bg-muted/50 p-5 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <h3 class="mb-2 text-lg font-semibold">{title}</h3>
+              <p class="text-sm text-gray-400">{description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <Hr />
+
+    {/* ----- CURRICULUM ----- */}
+    <section id="curriculum" class="pt-12 pb-6">
+      <p class="mb-2 text-sm font-semibold tracking-wide text-accent uppercase">
+        The Curriculum
+      </p>
+      <h2 class="mb-2 text-2xl font-semibold tracking-wide">
+        Everything you'll learn, step by step.
+      </h2>
+      <p class="mb-8 max-w-2xl text-sm text-gray-400">
+        Prerequisites: basic HTML, CSS, and JavaScript. Everything else is
+        taught from the ground up.
+      </p>
+
+      <ol class="grid grid-cols-1 gap-6">
+        {
+          modules.map(({ number, title, items }) => (
+            <li class="flex flex-col gap-3 border border-border bg-background p-5 sm:flex-row sm:gap-5">
+              <span class="text-3xl font-extrabold text-accent/40">{number}</span>
+              <div class="flex-1">
+                <h3 class="mb-2 text-lg font-semibold">{title}</h3>
+                <ul class="space-y-1.5">
+                  {items.map(item => (
+                    <li class="flex items-start gap-2 text-sm text-gray-400">
+                      <span class="mt-0.5 text-accent">✓</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <Hr />
+
+    {/* ----- FIGMA HIGHLIGHT ----- */}
+    <section id="figma" class="pt-12 pb-6">
+      <p class="mb-2 text-sm font-semibold tracking-wide text-accent uppercase">
+        A Personal Favourite
+      </p>
+      <h2 class="mb-4 text-2xl font-semibold tracking-wide">
+        Figma to Shopify — with AI working beside you.
+      </h2>
+      <p class="mb-2 max-w-2xl">
+        You'll see how dramatically more efficient your workflow becomes when
+        AI converts Figma designs into Shopify-compatible code — then we refine
+        it by hand.
+      </p>
+      <p class="text-sm text-gray-400">
+        This is the exact conversion workflow modern developers use to turn
+        designs into working stores faster.
+      </p>
+    </section>
+
+    <Hr />
+
+    {/* ----- HOW TO ENROLL / PRICING ----- */}
+    <section id="enroll" class="pt-12 pb-6">
+      <p class="mb-2 text-sm font-semibold tracking-wide text-accent uppercase">
+        How to Enroll
+      </p>
+      <h2 class="mb-8 text-2xl font-semibold tracking-wide">
+        Reserve your seat in 3 simple steps.
+      </h2>
+
+      <ol class="grid grid-cols-1 gap-6">
+        {
+          steps.map(({ step, title, description }) => (
+            <li class="flex gap-4">
+              <span class="flex size-8 shrink-0 items-center justify-center bg-accent text-sm font-bold text-background">
+                {step}
+              </span>
+              <div>
+                <h3 class="font-semibold">{title}</h3>
+                <p class="text-sm text-gray-400">{description}</p>
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+
+      <div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
+        {/* Payoneer - international */}
+        <div class="bg-muted/50 p-6">
+          <h3 class="mb-2 text-lg font-semibold">International (Payoneer)</h3>
+          <p class="mb-3 text-sm text-gray-400">
+            Pay <strong class="text-foreground">$47 USD</strong> to the email
+            below via Payoneer.
+          </p>
+          <p class="mb-6 text-sm">Payoneer email:</p>
+          <a
+            href={PAYMENT_URL}
+            class="mb-4 inline-block w-full truncate rounded border border-muted bg-background px-4 py-3 text-center text-sm font-semibold text-accent"
+          >
+            {PAYONEER_EMAIL}
+          </a>
+          <a
+            href={PAYMENT_URL}
+            class="inline-block w-full rounded bg-accent px-6 py-3 text-center text-sm font-semibold text-background transition hover:opacity-90"
+          >
+            Pay $47 via Payoneer
+          </a>
+        </div>
+
+        {/* Pakistan bank transfer */}
+        <div class="bg-muted/50 p-6">
+          <h3 class="mb-2 text-lg font-semibold">Pakistan (Bank Transfer)</h3>
+          <p class="mb-3 text-sm text-gray-400">
+            Pay <strong class="text-foreground">10,000 PKR</strong> via bank
+            transfer.
+          </p>
+          <dl class="mb-6 space-y-2 text-sm">
+            <div>
+              <dt class="font-semibold">Account Title</dt>
+              <dd class="text-gray-400">EcomWonk</dd>
+            </div>
+            <div>
+              <dt class="font-semibold">Bank</dt>
+              <dd class="text-gray-400">National Bank of Pakistan</dd>
+            </div>
+            <div>
+              <dt class="font-semibold">IBAN</dt>
+              <dd class="break-all text-gray-400">
+                PK74NBPA0401004518262263
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="mt-8 rounded-xl border border-accent/40 bg-muted/40 p-6 text-center">
+        <h3 class="mb-2 text-lg font-semibold">
+          Finished paying? Reserve your seat now.
+        </h3>
+        <p class="mb-4 text-sm text-gray-400">
+          Send your payment screenshot on WhatsApp and I'll confirm your spot.
+        </p>
+        <a
+          href={WHATSAPP_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block rounded bg-accent px-6 py-3 text-sm font-semibold text-background transition hover:opacity-90"
+        >
+          Send Screenshot on WhatsApp
+        </a>
+        <p class="mt-3 text-xs text-gray-400">WhatsApp: {WHATSAPP_NUMBER}</p>
+      </div>
+    </section>
+
+    <Hr />
+
+    {/* ----- TESTIMONIALS ----- */}
+    <section id="testimonials" class="pt-12 pb-6">
+      <p class="mb-2 text-sm font-semibold tracking-wide text-accent uppercase">
+        Student Feedback
+      </p>
+      <h2 class="mb-8 text-2xl font-semibold tracking-wide">
+        Real students, real results.
+      </h2>
+
+      <ul class="grid grid-cols-1 gap-6 md:grid-cols-3">
+        {
+          testimonials.map(({ quote, name, role }) => (
+            <li class="flex flex-col bg-muted/50 p-5 shadow-sm transition-shadow duration-200 hover:shadow-md">
+              <blockquote class="mb-4 flex-1 text-sm text-gray-400">
+                &ldquo;{quote}&rdquo;
+              </blockquote>
+              <footer>
+                <p class="font-semibold">{name}</p>
+                <p class="text-sm text-gray-400">{role}</p>
+              </footer>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <Hr />
+
+    {/* ----- FAQ ----- */}
+    <section id="faq" class="pt-12 pb-6">
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">
+        Frequently Asked Questions
+      </h2>
+
+      <div class="flex flex-col gap-3">
+        {
+          faqs.map(({ question, answer }) => (
+            <details class="group bg-muted/50 p-4">
+              <summary class="cursor-pointer list-none font-semibold marker:content-none">
+                {question}
+              </summary>
+              <p class="mt-2 text-sm text-gray-400">{answer}</p>
+            </details>
+          ))
+        }
+      </div>
+    </section>
+
+    <Hr />
+
+    {/* ----- FINAL CTA ----- */}
+    <section id="final-cta" class="pt-12 pb-6 text-center">
+      <h2 class="mb-4 text-2xl font-semibold tracking-wide">
+        Become Shopify Plus ready with AI.
+      </h2>
+      <p class="mb-2">Most comprehensive training you'll find online.</p>
+      <p class="mb-2">Currently at a launch price.</p>
+      <p class="mb-6">Lock it in before the price goes up.</p>
+
+      <a
+        href={PAYMENT_URL}
+        class="inline-block rounded bg-accent px-6 py-3 text-sm font-semibold text-background transition hover:opacity-90"
+      >
+        Reserve My Seat — $47
+      </a>
+      <p class="mt-3 text-sm text-gray-400">
+        Questions? Message me on WhatsApp: {WHATSAPP_NUMBER}
+      </p>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
